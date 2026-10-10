@@ -1,0 +1,47 @@
+name: Copilot setup steps
+
+# GitHub's Copilot cloud agent runs the job below before it starts work,
+# so the tools it needs to check its own changes are already installed.
+# The job MUST be named "copilot-setup-steps" or Copilot ignores it, and
+# this file must be on the default branch to take effect.
+#
+# It also runs when this file changes, so a mistake here shows up as a
+# failed check on the pull request instead of as a broken agent session.
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+  pull_request:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+
+jobs:
+  copilot-setup-steps:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      # Host build and test tools for firmware/app and firmware/tests,
+      # static analysis, and the ARM cross-compiler for firmware/bsp.
+      - name: Install build and analysis tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            cmake ninja-build gcc g++ \
+            clang-format cppcheck \
+            gcc-arm-none-eabi libnewlib-arm-none-eabi \
+            python3
+
+      - name: Show tool versions
+        run: |
+          cmake --version | head -n 1
+          gcc --version | head -n 1
+          arm-none-eabi-gcc --version | head -n 1
+          clang-format --version
+          cppcheck --version
+          python3 --version
