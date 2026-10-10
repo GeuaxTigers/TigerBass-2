@@ -1,0 +1,62 @@
+name: Bug
+description: Something does not behave the way it should, on the board, in firmware, or in the repository.
+title: "bug: "
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where
+      options:
+        - Controller board hardware
+        - Fret board hardware
+        - Firmware
+        - Mechanical
+        - Repository, CI or tooling
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: What happened
+      description: What you saw, heard or measured.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should have happened
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How to make it happen again
+      description: Numbered steps. For a playing problem, which string, which fret, and what was played before it.
+    validations:
+      required: true
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often
+      options:
+        - Every time
+        - Often
+        - Rarely
+        - Happened once
+  - type: input
+    id: hardware
+    attributes:
+      label: Board revision
+      placeholder: ctrl-revA, board 2 of 5
+  - type: input
+    id: firmware
+    attributes:
+      label: Firmware commit
+      description: The output of `git rev-parse --short HEAD` for what was flashed.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Scope captures, MIDI monitor logs, photos, error output.

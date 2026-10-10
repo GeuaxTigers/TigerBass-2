@@ -1,0 +1,114 @@
+name: CI
+
+# Runs on every pull request and on every push to main.
+# Three jobs: repository checks, firmware tests, KiCad rule checks.
+# The firmware and KiCad jobs do nothing until there is something for
+# them to check, so this file does not need editing when those arrive.
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+env:
+  # The KiCad version CI checks hardware with. It MUST match the major
+  # version the team installs (README, "Getting set up", and
+  # docs/decisions/0011-tool-versions.md). Change all three together.
+  # This is a tag of the official kicad/kicad container image.
+  KICAD_VERSION: "8.0"
+  MARKDOWNLINT_VERSION: "0.23.3"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  repo-checks:
+    name: Repository checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: No editor leftovers or build output committed
+        run: python3 tools/check_editor_leftovers.py
+
+      - name: Relative links in Markdown resolve
+        run: python3 tools/check_links.py
+
+      - name: Tests for the scripts in tools/
+        run: python3 -m unittest discover -s tools/tests -v
+
+      - name: Markdown lint
+        run: npx --yes "markdownlint-cli2@${MARKDOWNLINT_VERSION}"
+
+  firmware:
+    name: Firmware host tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Is there firmware to build?
+        id: detect
+        run: |
+          if [ -f firmware/CMakeLists.txt ]; then
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::No firmware/CMakeLists.txt yet. Firmware tests skipped."
+          fi
+
+      - name: Configure
+        if: steps.detect.outputs.present == 'true'
+        run: cmake -S firmware -B build/host -DTB2_BUILD_TESTS=ON
+
+      - name: Build
+        if: steps.detect.outputs.present == 'true'
+        run: cmake --build build/host --parallel
+
+      - name: Test
+        if: steps.detect.outputs.present == 'true'
+        run: ctest --test-dir build/host --output-on-failure
+
+  hardware:
+    name: KiCad ERC and DRC
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Find KiCad projects under hardware/
+        id: find
+        run: |
+          find hardware -name '*.kicad_pro' -not -path '*-backups/*' | sort > kicad-projects.txt
+          count=$(wc -l < kicad-projects.txt | tr -d ' ')
+          echo "count=${count}" >> "$GITHUB_OUTPUT"
+          if [ "${count}" = "0" ]; then
+            echo "::notice::No KiCad project under hardware/ yet. ERC and DRC skipped."
+          else
+            echo "Found ${count} project(s):"
+            cat kicad-projects.txt
+          fi
+
+      # kicad-cli runs inside the official KiCad container, as root so it
+      # can write its reports into the checked-out workspace.
+      - name: Run ERC and DRC, export schematic PDF and BOM
+        if: steps.find.outputs.count != '0'
+        run: |
+          docker run --rm --user root \
+            --volume "${PWD}:/work" --workdir /work \
+            "kicad/kicad:${KICAD_VERSION}" \
+            bash tools/ci_kicad_checks.sh kicad-projects.txt ci-out
+
+      - name: Upload reports, schematic PDF and BOM
+        if: always() && steps.find.outputs.count != '0'
+        uses: actions/upload-artifact@v4
+        with:
+          name: kicad-outputs
+          path: ci-out/
+          if-no-files-found: warn

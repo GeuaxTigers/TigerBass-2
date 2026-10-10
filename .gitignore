@@ -1,0 +1,75 @@
+# KiCad writes these while you work. They are backups, autosaves, lock files
+# and per-user window state, not design data. Committing them causes
+# conflicts between teammates and hides the real change in a diff.
+*-backups/
+_autosave-*
+\#auto_saved_files\#
+*.lck
+~*
+*.kicad_prl
+fp-info-cache
+*-bak
+*.bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# KiCad fabrication and export output. Released outputs are attached to a
+# tagged GitHub release instead (see CONTRIBUTING.md), so the repo never
+# holds a gerber that does not match the board file next to it.
+hardware/**/fab/
+hardware/**/out/
+*.gbr
+*.drl
+*-job.gbrjob
+# Last year's fabrication files are reference material. Keep them.
+!legacy/**/*.gbr
+!legacy/**/*.drl
+!legacy/**/*-job.gbrjob
+
+# STM32CubeIDE build output and per-user settings. Keep .project, .cproject
+# and *.ioc tracked: the project does not open without them.
+Debug/
+Release/
+.settings/
+*.launch
+*.elf
+*.hex
+*.bin
+*.map
+*.list
+*.o
+*.d
+*.su
+*.cyclo
+
+# LTspice simulation output. The .asc schematic is the source; these are
+# regenerated every time the simulation runs and can be very large.
+# The .log and .net rules are limited to the simulation folder because
+# KiCad netlist exports also end in .net.
+*.raw
+hardware/sim/**/*.log
+hardware/sim/**/*.net
+
+# CMake and host-test build folders.
+build/
+cmake-build-*/
+CMakeUserPresets.json
+compile_commands.json
+
+# Python caches and virtual environments.
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Node, only used for documentation linting.
+node_modules/
+
+# Operating system and editor files.
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp

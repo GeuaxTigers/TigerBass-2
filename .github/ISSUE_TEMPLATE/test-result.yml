@@ -1,0 +1,73 @@
+name: Test result
+description: Record the outcome of a bench test, a bring-up step or a measurement.
+title: "test: "
+labels: ["test"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Record enough that someone else could repeat the test and compare. Raw data (scope captures, logs, spreadsheets) goes in `docs/test/results/`; link it here.
+  - type: input
+    id: test
+    attributes:
+      label: Test
+      description: The test ID from docs/test/test-plan.md, or a short name if it is not in the plan.
+    validations:
+      required: true
+  - type: input
+    id: requirement
+    attributes:
+      label: Requirement IDs covered
+      placeholder: TB2-01, M2
+  - type: input
+    id: who-when
+    attributes:
+      label: Who ran it, and when
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: Board revision
+      placeholder: ctrl-revA, board 2 of 5
+    validations:
+      required: true
+  - type: input
+    id: firmware
+    attributes:
+      label: Firmware commit
+      description: The output of `git rev-parse --short HEAD` for what was flashed.
+  - type: textarea
+    id: equipment
+    attributes:
+      label: Equipment and setup
+      description: Model numbers. For an oscilloscope, the probe type, bandwidth setting and timebase. What was connected to what.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Result
+      description: Numbers with units, and how many runs. State the pass criterion and whether it was met.
+    validations:
+      required: true
+  - type: dropdown
+    id: outcome
+    attributes:
+      label: Outcome
+      options:
+        - Pass
+        - Fail
+        - Inconclusive
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything unexpected
+      description: Even if the test passed.
+  - type: input
+    id: data
+    attributes:
+      label: Raw data
+      description: Path in docs/test/results/, or a link.
