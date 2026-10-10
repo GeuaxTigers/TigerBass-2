@@ -27,7 +27,7 @@ We are remaking the controller board from scratch and carrying over the parts of
 | Fret sensing | 80 fret segments (20 frets × 4 per-string segments), one MCU input each, through 1 kΩ, over two 2×20 headers to the neck PCB | 20 full-width frets shared by all four strings, so 20 fret lines | Direction chosen |
 | String drive | 4 GPIO outputs, one string driven high at a time, Schottky diode per string | Same scan principle | Needs ghosting analysis, see below |
 | Amplitude sensing | 4 per-string pickup channels into a passive diode clamp, then the MCU's internal 12-bit ADC | A separate, dedicated ADC | Part `TBD(team)` |
-| MCU | STM32F439ZIT6, LQFP-144, 8 MHz crystal | `TBD(team)`. The 144-pin part was chosen for 80+ inputs, which we no longer need | Open |
+| MCU | STM32F439ZIT6, LQFP-144, 8 MHz crystal | `TBD(team)`. The 144-pin package had room for 80+ inputs, which we no longer need | Open |
 | USB | Micro-B, full-speed (OTG_FS), MIDI packets sent through a HID-class call | Proper USB-MIDI class; connector `TBD(team)` | Open |
 | DIN MIDI out | UART → SN74LVC1G17 buffer → 33 Ω / 10 Ω → 3-pin header | `TBD(team)` | Open |
 | Expression | 5 pot inputs: octave, modulation, pitch bend, MIDI channel, threshold | Scroll wheel (vibrato / modulation), whammy bar (pitch bend), others `TBD(team)` | Open |
@@ -132,19 +132,21 @@ Check the Capstone Design Program's policy on AI assistance before you put AI-wr
 
 ## Open decisions
 
-- [ ] **Shared-fret ghosting.** With full-width frets, a fret is a conductor common to all four strings. If a fretted string touches two frets (last year's analysis assumed the fret on each side of the finger both make contact), it bridges them. A second string fretted one position away can then carry the drive signal on to a fret the driven string is not touching, and the scan reports the wrong note. Tiger Bass 1's segmented frets could not do this. Needs analysis and a bench test before layout.
-- [ ] **External ADC part and interface.** Channel count, simultaneous sampling or fast multiplexing, sample rate, resolution, input range.
-- [ ] **Amplitude front end.** Last year's as-built circuit is a passive clamp with a series diode. Decide whether the new ADC gets a buffered front end.
-- [ ] **MCU.** Keep the STM32F439 for firmware reuse, or move to a smaller package now that we need about 20 fret inputs instead of 80.
-- [ ] **Latency target.** Pick the number we are designing to, and how we will measure it.
-- [ ] **USB.** Connector, and which USB-MIDI stack.
-- [ ] **DIN MIDI out.** Keep or drop.
-- [ ] **Scroll wheel and whammy bar sensing.** Sensor type for each (encoder, potentiometer, Hall sensor), and which MIDI messages they send.
-- [ ] **Battery and power tree.** Chemistry, charging, protection, run time target, how the pickups are powered.
-- [ ] **Board partition and connectors.** What lives on the controller board, what lives on the fret board, and how they connect now that it is 20 lines instead of 80.
-- [ ] **KiCad and CubeIDE versions** the whole team installs.
-- [ ] **Where mechanical CAD lives.** Native CAD files in this repo, or exports only.
-- [ ] **Licence**, if the repo is ever made public.
+Each has a record in [`docs/decisions/`](docs/decisions/) with the options and what we need to find out. Tick it here when its record says Decided.
+
+- [ ] [**Shared-fret ghosting.**](docs/decisions/0001-shared-fret-ghosting.md) With full-width frets, a fret is a conductor common to all four strings. If a fretted string touches two frets (last year's analysis assumed the fret on each side of the finger both make contact), it bridges them. A second string fretted one position away can then carry the drive signal on to a fret the driven string is not touching, and the scan reports the wrong note. Tiger Bass 1's segmented frets could not do this. Needs analysis and a bench test before layout.
+- [ ] [**External ADC part and interface.**](docs/decisions/0002-external-adc.md) Channel count, simultaneous sampling or fast multiplexing, sample rate, resolution, input range.
+- [ ] [**Amplitude front end.**](docs/decisions/0003-amplitude-front-end.md) Last year's as-built circuit is a passive clamp with a series diode. Decide whether the new ADC gets a buffered front end.
+- [ ] [**MCU.**](docs/decisions/0004-microcontroller.md) Keep the STM32F439 for firmware reuse, or move to a smaller package now that we need about 20 fret inputs instead of 80.
+- [ ] [**Latency target.**](docs/decisions/0005-latency-target.md) Pick the number we are designing to, and how we will measure it.
+- [ ] [**USB.**](docs/decisions/0006-usb.md) Connector, and which USB-MIDI stack.
+- [ ] [**DIN MIDI out.**](docs/decisions/0007-din-midi-out.md) Keep or drop.
+- [ ] [**Scroll wheel and whammy bar sensing.**](docs/decisions/0008-expression-sensing.md) Sensor type for each (encoder, potentiometer, Hall sensor), and which MIDI messages they send.
+- [ ] [**Battery and power tree.**](docs/decisions/0009-battery-and-power-tree.md) Chemistry, charging, protection, run time target, how the pickups are powered.
+- [ ] [**Board partition and connectors.**](docs/decisions/0010-board-partition-and-connectors.md) What lives on the controller board, what lives on the fret board, and how they connect now that it is 20 lines instead of 80.
+- [ ] [**KiCad and CubeIDE versions**](docs/decisions/0011-tool-versions.md) the whole team installs.
+- [ ] [**Where mechanical CAD lives.**](docs/decisions/0012-mechanical-cad-location.md) Native CAD files in this repo, or exports only.
+- [ ] [**Licence**](docs/decisions/0013-licence.md), if the repo is ever made public.
 
 ## Team
 

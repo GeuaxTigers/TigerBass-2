@@ -2,18 +2,33 @@
 
 Copy-paste prompts for GitHub Copilot's cloud agent, which works on a branch in the background and opens a draft pull request when it finishes.
 
-## Before the first prompt
+## Before you start
 
-1. Create the repository and commit the starter files: `README.md`, `.github/copilot-instructions.md`, `docs/legacy/tigerbass1-notes.md` and this file.
-2. Put last year's work in `legacy/tigerbass1/`: the `ControllerPCB` KiCad project, the fret board project if it is separate, the STM32CubeIDE firmware project, and the FDPR as a PDF. Leave out `#auto_saved_files#`, `*-backups` folders, backup zips and `*.lck` files. The agent only knows what is in the repository. Without these files it works from the notes alone and Prompt 2 cannot run.
-3. Open <https://github.com/copilot/agents>, choose this repository, and paste **Prompt 1**. You can also put a prompt in an issue and assign the issue to Copilot.
-4. Review the pull request it opens as you would a teammate's. Merge it before starting the next prompt, so each task builds on the last.
+1. Put last year's work in `legacy/tigerbass1/`. [`legacy/README.md`](../../legacy/README.md) lists what to include and what to leave out. The agent only knows what is in the repository. Without these files Prompt 2 cannot run, and the other prompts work from [`docs/legacy/tigerbass1-notes.md`](../legacy/tigerbass1-notes.md) alone.
+2. Open <https://github.com/copilot/agents>, choose this repository, and paste a prompt. You can also put a prompt in an issue and assign the issue to Copilot.
+3. Review the pull request it opens as you would a teammate's. [`CONTRIBUTING.md`](../../CONTRIBUTING.md#pull-requests-from-copilot) says what to look for. Merge it before starting the next prompt, so each task builds on the last.
 
 Give it one prompt at a time. A prompt that asks for everything produces a pull request nobody can review.
+
+| Prompt | Task | State |
+| --- | --- | --- |
+| 1 | Repository foundation | Done |
+| 2 | Tiger Bass 1 teardown | Waiting for files in `legacy/tigerbass1/` |
+| 3 | Shared-fret ghosting analysis | Ready |
+| 4 | Portable firmware core | Ready |
+| 5 | External ADC trade study | Ready |
+| 6 | Latency budget | Ready |
+| 7 | Microcontroller and pin budget | Ready |
+| 8 | USB-MIDI | Ready |
+| 9 | Test plan | Ready |
+
+Update the State column as prompts are run.
 
 ---
 
 ## Prompt 1: repository foundation
+
+**Done.** This was carried out in the pull request that set up the repository. The prompt is kept as the record of what that pull request was asked to deliver.
 
 ```text
 Set up the foundation of this repository so that eight students, most of them new
@@ -149,7 +164,7 @@ contradictory, do not fix it silently. Note it in the pull request.
 
 ## Follow-up prompts
 
-Run these one at a time after Prompt 1 is merged. The order below is the suggested order. Prompts 3, 4, 5 and 6 feed decisions the team has to make before layout starts.
+Run these one at a time. The order below is the suggested order. Prompts 3, 4, 5 and 6 feed decisions the team has to make before layout starts.
 
 ### Prompt 2: Tiger Bass 1 teardown
 
@@ -358,7 +373,7 @@ signal.
 ### Prompt 7: microcontroller and pin budget
 
 ```text
-Last year's board used a 144-pin STM32F439 because it needed 80 fret inputs.
+Last year's board used a 144-pin STM32F439 and needed 80 fret inputs.
 This year the plan needs about 20. Write docs/analysis/mcu-pin-budget.md to
 help the team decide whether to keep that part or move to a smaller one.
 
@@ -366,8 +381,8 @@ help the team decide whether to keep that part or move to a smaller one.
    docs/architecture.md: fret inputs, string outputs, the bus to the external
    ADC, expression inputs, USB, DIN MIDI UART, debug, crystal, LEDs, battery
    monitoring, spares. Mark each count as firm or TBD.
-2. List what staying on the STM32F439 gives (firmware and schematic reuse, a
-   development board the lab already has) and what it costs (package size,
+2. List what staying on the STM32F439 gives (firmware and schematic reuse, the
+   development board last year's team used) and what it costs (package size,
    board area, power, price).
 3. List what the team should check in any alternative: USB device support
    without an external PHY, enough timers and SPI speed for the ADC, 5 V
