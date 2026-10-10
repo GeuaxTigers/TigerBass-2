@@ -1,0 +1,45 @@
+# Store text with LF line endings so a Windows and a Mac user do not
+# produce a diff that touches every line of a file.
+* text=auto eol=lf
+
+# KiCad design files are text. Force LF so KiCad on Windows and KiCad on
+# macOS write the same bytes.
+*.kicad_sch  text eol=lf
+*.kicad_pcb  text eol=lf
+*.kicad_pro  text eol=lf
+*.kicad_sym  text eol=lf
+*.kicad_mod  text eol=lf
+*.kicad_dru  text eol=lf
+*.kicad_wks  text eol=lf
+sym-lib-table text eol=lf
+fp-lib-table  text eol=lf
+
+# STM32CubeMX and CubeIDE project files.
+*.ioc      text eol=lf
+.project   text eol=lf
+.cproject  text eol=lf
+
+# LTspice schematics and symbols are text.
+*.asc text eol=lf
+*.asy text eol=lf
+
+# Windows scripts need CRLF to run.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Never touch the bytes of these.
+*.step binary
+*.stp  binary
+*.stl  binary
+*.wrl  binary
+*.pdf  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.zip  binary
+*.xlsx binary
+*.docx binary
+*.pptx binary
+*.sldprt binary
+*.sldasm binary
+*.f3d  binary
