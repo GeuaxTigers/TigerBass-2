@@ -150,14 +150,14 @@ Each has a record in [`docs/decisions/`](docs/decisions/) with the options and w
 
 ## Team
 
-| Name | Discipline | Focus |
+| Name | Discipline | Team |
 | --- | --- | --- |
-| Raman Yadav | EE | `TBD(team)` |
+| Raman Yadav | EE | PCB |
 | Jake Fernandez | EE | `TBD(team)` |
 | Joshua Wanga | EE | `TBD(team)` |
-| Daniel Whitely | EE, ECE | `TBD(team)` |
-| Patrick Cangelosi | ECE | `TBD(team)` |
-| Lance Captain | ECE | `TBD(team)` |
+| Daniel Whitely | EE, ECE | PCB |
+| Patrick Cangelosi | ECE | Firmware |
+| Lance Captain | ECE | Firmware |
 | Adam Magnus Stevens | ME | `TBD(team)` |
 | Reed Durst | ME | `TBD(team)` |
 
