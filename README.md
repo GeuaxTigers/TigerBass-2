@@ -158,8 +158,8 @@ Each has a record in [`docs/decisions/`](docs/decisions/) with the options and w
 | Daniel Whitely | EE, ECE | PCB |
 | Patrick Cangelosi | ECE | Firmware |
 | Lance Captain | ECE | Firmware |
-| Adam Magnus Stevens | ME | `TBD(team)` |
-| Reed Durst | ME | `TBD(team)` |
+| Adam Magnus Stevens | ME | Mechanical |
+| Reed Durst | ME | Mechanical |
 
 Sponsor: Chris O'Loughlin. Faculty advisor: James Bonner.
 
