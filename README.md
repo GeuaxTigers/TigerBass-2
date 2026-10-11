@@ -152,9 +152,9 @@ Each has a record in [`docs/decisions/`](docs/decisions/) with the options and w
 
 | Name | Discipline | Team |
 | --- | --- | --- |
-| Raman Yadav | EE | PCB |
-| Jake Fernandez | EE | `TBD(team)` |
-| Joshua Wanga | EE | `TBD(team)` |
+| Raman Yadav | EE | PCB and Firmware |
+| Jake Fernandez | EE | PCB |
+| Joshua Wanga | EE | PCB and Firmware |
 | Daniel Whitely | EE, ECE | PCB |
 | Patrick Cangelosi | ECE | Firmware |
 | Lance Captain | ECE | Firmware |
