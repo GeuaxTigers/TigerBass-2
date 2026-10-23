@@ -2,7 +2,7 @@
 
 KiCad project for the TigerBass 2 controller PCB: the microcontroller, the external ADC and its front end, the string drive, USB, power, and the connectors to everything else in the instrument.
 
-**Status: not started.** The KiCad project goes in this folder, with the project file, root schematic and board file sharing one name, for example `controller-board.kicad_pro`, `controller-board.kicad_sch`, `controller-board.kicad_pcb`. CI finds projects by their `.kicad_pro` file.
+**Status: schematic started (KiCad 9).** The ADC and pickup front end are drawn on one flat sheet. There is no layout yet. See the [schematic review](../../docs/analysis/controller-board-schematic-review.md) for what is missing. The KiCad project goes in this folder, with the project file, root schematic and board file sharing one name, for example `controller-board.kicad_pro`, `controller-board.kicad_sch`, `controller-board.kicad_pcb`. CI finds projects by their `.kicad_pro` file.
 
 ## Before starting the schematic
 

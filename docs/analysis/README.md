@@ -2,7 +2,13 @@
 
 Trade studies and calculations: the work that sits between an open question and a decision.
 
-**Status: empty.** The first documents planned for this folder, each with a prompt in [`docs/copilot/kickoff-prompt.md`](../copilot/kickoff-prompt.md):
+**Status: started.** Written so far:
+
+| Document | Feeds decision |
+| --- | --- |
+| [`controller-board-schematic-review.md`](controller-board-schematic-review.md) | [0002](../decisions/0002-external-adc.md), [0003](../decisions/0003-amplitude-front-end.md), [0009](../decisions/0009-battery-and-power-tree.md) |
+
+Still planned, each with a prompt in [`docs/copilot/kickoff-prompt.md`](../copilot/kickoff-prompt.md):
 
 | Document | Feeds decision |
 | --- | --- |
