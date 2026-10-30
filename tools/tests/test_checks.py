@@ -115,5 +115,50 @@ class LeftoverTests(unittest.TestCase):
             self.assertIsNotNone(leftovers.classify(path), path)
 
 
+class FixModeTests(unittest.TestCase):
+    """--fix untracks leftovers but leaves them on disk and leaves design files alone."""
+
+    def setUp(self):
+        import os
+        import subprocess
+        self.tmp = tempfile.TemporaryDirectory()
+        self.root = Path(self.tmp.name)
+        self.cwd = os.getcwd()
+        run = lambda *a: subprocess.run(a, cwd=self.root, check=True, capture_output=True)
+        run("git", "init", "-q")
+        run("git", "config", "user.email", "test@example.com")
+        run("git", "config", "user.name", "test")
+        board = self.root / "hardware" / "controller-board"
+        (board / "controller-board-backups").mkdir(parents=True)
+        (board / "controller-board.kicad_sch").write_text("(kicad_sch)")
+        (board / "controller-board.kicad_prl").write_text("{}")
+        (board / "controller-board-backups" / "b.zip").write_bytes(b"zip")
+        run("git", "add", "-f", ".")
+        run("git", "commit", "-q", "-m", "init")
+        os.chdir(self.root)
+
+    def tearDown(self):
+        import os
+        os.chdir(self.cwd)
+        self.tmp.cleanup()
+
+    def tracked(self):
+        return set(leftovers.tracked_files())
+
+    def test_report_mode_fails_and_changes_nothing(self):
+        before = self.tracked()
+        self.assertEqual(leftovers.main([]), 1)
+        self.assertEqual(self.tracked(), before)
+
+    def test_fix_untracks_leftovers_only(self):
+        self.assertEqual(leftovers.main(["--fix"]), 0)
+        self.assertEqual(self.tracked(), {"hardware/controller-board/controller-board.kicad_sch"})
+        # Still on disk.
+        self.assertTrue((self.root / "hardware/controller-board/controller-board.kicad_prl").exists())
+        self.assertTrue((self.root / "hardware/controller-board/controller-board-backups/b.zip").exists())
+        # A second run finds nothing.
+        self.assertEqual(leftovers.main([]), 0)
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -7,7 +7,7 @@ Scripts that support the design: calculations, generators and repository checks.
 | Script | What it does |
 | --- | --- |
 | [`check_links.py`](check_links.py) | Checks that every relative link in the repository's Markdown files points at a file that exists. CI runs it |
-| [`check_editor_leftovers.py`](check_editor_leftovers.py) | Fails if a KiCad backup, autosave or lock file has been committed. CI runs it |
+| [`check_editor_leftovers.py`](check_editor_leftovers.py) | Fails if a KiCad backup, autosave or lock file has been committed. CI runs it. With `--fix`, removes them from Git instead and keeps them on disk; the cleanup workflow runs it that way on every branch push |
 | [`ci_kicad_checks.sh`](ci_kicad_checks.sh) | Runs KiCad's ERC and DRC on every project under `hardware/` and exports a schematic PDF and BOM. CI runs it inside the KiCad container. Needs `kicad-cli` |
 | [`tests/`](tests/) | Tests for the scripts above |
 

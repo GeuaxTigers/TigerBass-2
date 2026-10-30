@@ -1,0 +1,88 @@
+name: Clean editor leftovers
+
+# Runs on every push to a branch other than main. If the push added
+# KiCad backups, .kicad_prl files, lock files, autosaves or build output,
+# this removes them from Git (they stay in the pusher's own folder),
+# commits the cleanup to the same branch, and re-runs CI on the cleaned
+# commit so the pull request's required checks pass.
+#
+# The usual way these get in is uploading files through the GitHub
+# website, which ignores .gitignore. GitHub Desktop and command-line Git
+# respect it.
+#
+# After this bot pushes a cleanup commit, your computer is one commit
+# behind the branch. Click "Pull origin" in GitHub Desktop (or run
+# git pull) before you push again.
+#
+# The patterns are in tools/check_editor_leftovers.py. The "Repository
+# checks" job in ci.yml runs the same check and fails the pull request if
+# anything slips past this workflow.
+
+on:
+  push:
+    branches-ignore:
+      - main
+
+permissions:
+  contents: write   # push the cleanup commit
+  actions: write    # re-run CI on the cleaned commit
+
+concurrency:
+  group: clean-leftovers-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  clean:
+    name: Remove editor leftovers
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    # Skip pushes made by this workflow itself.
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Remove leftovers from Git
+        id: fix
+        run: |
+          python3 tools/check_editor_leftovers.py --fix
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            git diff --cached --name-only > removed.txt
+          fi
+
+      - name: Commit and push the cleanup
+        if: steps.fix.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          {
+            echo "ci: remove editor leftovers from Git"
+            echo
+            echo "Removed automatically by the clean-editor-leftovers workflow."
+            echo "The files are still on the computer they were pushed from."
+            echo
+            sed 's/^/- /' removed.txt
+          } > message.txt
+          git commit --file message.txt
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+          {
+            echo "### Removed editor leftovers from \`${GITHUB_REF_NAME}\`"
+            echo
+            sed 's/^/- `/; s/$/`/' removed.txt
+            echo
+            echo "Pull before you push again: GitHub Desktop → **Pull origin**."
+          } >> "$GITHUB_STEP_SUMMARY"
+          echo "::warning::Removed $(wc -l < removed.txt) editor leftover file(s) from ${GITHUB_REF_NAME}. Pull before you push again."
+
+      # A push made with GITHUB_TOKEN does not start other workflows, so
+      # CI would never run on the cleaned commit and the pull request's
+      # required checks would wait forever. Start it explicitly.
+      - name: Re-run CI on the cleaned commit
+        if: steps.fix.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run ci.yml --ref "${GITHUB_REF_NAME}"

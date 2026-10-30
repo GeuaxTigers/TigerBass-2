@@ -155,6 +155,17 @@ If someone has claimed a file you need, ask them. Do not start a parallel edit.
 2. Run **ERC** in the schematic editor (Inspect → Electrical Rules Checker) and **DRC** in the board editor (Inspect → Design Rules Checker).
 3. If you changed the schematic, update the board from it (Tools → Update PCB from Schematic) so the two agree.
 4. Look at the changed-files list. It should contain only the files you meant to edit. A `.kicad_prl`, a `-backups` folder or a `.lck` file in the list means something is wrong with `.gitignore`. Tell the team.
+5. **Commit with GitHub Desktop or command-line Git, never by uploading files on the GitHub website.** Desktop and Git skip the files listed in `.gitignore`. The website's Add file → Upload files does not, so a dragged-in project folder brings its backups and `.kicad_prl` with it.
+
+### If leftovers get pushed anyway
+
+A cleanup bot catches them. Whenever anyone pushes to a branch other than `main`, the [clean-editor-leftovers](.github/workflows/clean-editor-leftovers.yml) workflow looks for KiCad backups, `.kicad_prl`, lock and autosave files, and build output. If it finds any, it removes them from Git, pushes a commit named `ci: remove editor leftovers from Git` to your branch, and re-runs the checks.
+
+What that means for you:
+
+- **Pull before you push again.** The bot's commit is on GitHub but not on your computer. In GitHub Desktop, click **Pull origin**. On the command line, `git pull`.
+- **When you pull, Git may delete those leftover files from your folder,** because the bot told Git to stop tracking them. That is harmless: KiCad recreates `.kicad_prl` and new backups the next time you open the project.
+- **If the bot cannot fix it,** the "Repository checks" job still fails the pull request and lists the files, so they can never reach `main`.
 
 ### If two people edited the same file anyway
 

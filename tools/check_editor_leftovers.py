@@ -11,14 +11,22 @@ whole project folder in from elsewhere.
 
 Run from anywhere inside the repository:
 
-    python3 tools/check_editor_leftovers.py
+    python3 tools/check_editor_leftovers.py          # report, exit 1 if found
+    python3 tools/check_editor_leftovers.py --fix    # also remove them from Git
 
-Exit status is 0 when nothing is found, 1 otherwise.
+--fix runs "git rm --cached" on each leftover, so it is no longer tracked
+but stays on disk. Review and commit the result. The cleanup workflow
+(.github/workflows/clean-editor-leftovers.yml) runs it on every push to a
+branch other than main.
+
+Exit status is 0 when nothing is found or --fix removed everything,
+1 otherwise.
 Standard library only.
 """
 
 from __future__ import annotations
 
+import argparse
 import fnmatch
 import subprocess
 import sys
@@ -71,13 +79,35 @@ def tracked_files() -> list[str]:
     return [p for p in out.stdout.decode("utf-8", "surrogateescape").split("\0") if p]
 
 
-def main() -> int:
+def untrack(paths: list[str]) -> None:
+    """Stop tracking the given paths in Git, leaving the files on disk."""
+    for start in range(0, len(paths), 100):
+        subprocess.run(
+            ["git", "rm", "--cached", "--quiet", "--"] + paths[start:start + 100],
+            check=True,
+        )
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    parser.add_argument(
+        "--fix", action="store_true",
+        help="remove each leftover from Git (git rm --cached), keeping it on disk",
+    )
+    args = parser.parse_args(argv)
+
     found = []
     files = tracked_files()
     for path in files:
         description = classify(path)
         if description:
             found.append((path, description))
+    if found and args.fix:
+        untrack([path for path, _ in found])
+        print(f"Removed {len(found)} file(s) from Git (still on disk):\n")
+        for path, description in found:
+            print(f"  {path}\n      {description}")
+        return 0
     if found:
         print(f"{len(found)} file(s) that should not be in Git:\n")
         for path, description in found:
