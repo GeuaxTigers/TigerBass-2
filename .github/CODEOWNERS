@@ -1,0 +1,33 @@
+# CODEOWNERS: who is asked to review a pull request, by path.
+#
+# How it works: when a pull request touches a path below, GitHub
+# automatically requests a review from the owners listed on that line.
+# The last matching line wins.
+#
+# Every owner below is still TBD(team). To activate a line, remove the
+# leading "# " and replace the placeholder with a GitHub username, for
+# example:   /hardware/   @someones-username
+# Several owners can share a line, separated by spaces.
+#
+# Until at least one line is active this file does nothing, which is fine.
+
+# Schematics, layout, libraries, simulations
+# /hardware/                   @TBD-hardware-lead
+# /hardware/controller-board/  @TBD-controller-board-owner
+# /hardware/fret-board/        @TBD-fret-board-owner
+
+# Firmware
+# /firmware/                   @TBD-firmware-lead
+# /firmware/bsp/               @TBD-bsp-owner
+
+# Mechanical
+# /mechanical/                 @TBD-mechanical-lead
+
+# Requirements, architecture and decisions affect everyone
+# /docs/requirements.md        @TBD-team-lead
+# /docs/architecture.md        @TBD-team-lead
+# /docs/decisions/             @TBD-team-lead
+
+# CI and repository tooling
+# /.github/                    @TBD-repo-maintainer
+# /tools/                      @TBD-repo-maintainer

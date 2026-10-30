@@ -1,0 +1,51 @@
+name: Design decision
+description: A choice the team has to make, such as a part, an architecture or a target number.
+title: "decision: "
+labels: ["decision"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this to raise or discuss a design decision. When it is settled, record the outcome in `docs/decisions/` and close this issue with a link to that file.
+  - type: textarea
+    id: question
+    attributes:
+      label: The question
+      description: One sentence, phrased so it has an answer.
+      placeholder: Which ADC do we use for the four pickup channels?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters, and what is blocked until it is decided
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: Options
+      description: Each option with what it costs and what it gives. Include "do nothing" where that is a real option.
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: How we will choose
+      description: The criteria, in order of importance. Link the requirements they come from.
+  - type: textarea
+    id: unknowns
+    attributes:
+      label: What we need to find out first
+      description: Measurements, simulations, datasheet checks, a question for the sponsor or advisor.
+  - type: input
+    id: record
+    attributes:
+      label: Decision record
+      description: The file in docs/decisions/ for this decision, if one exists.
+      placeholder: docs/decisions/0002-external-adc.md
+  - type: input
+    id: needed-by
+    attributes:
+      label: Needed by
+      description: The date or milestone after which not having decided starts to cost us.

@@ -1,0 +1,43 @@
+name: Firmware task
+description: New firmware behaviour, or a change to existing behaviour.
+title: "fw: "
+labels: ["firmware"]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where
+      options:
+        - app (portable logic)
+        - bsp (board support, CubeMX, drivers)
+        - tests
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What it should do
+      description: Describe the behaviour from the player's side or the host computer's side where you can.
+      placeholder: When the fretted note changes while a string is still sounding, send Note Off for the old note and Note On for the new one.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: The requirement or issue behind this.
+  - type: textarea
+    id: tests
+    attributes:
+      label: Tests that will show it works
+      description: The cases a unit test should cover, and anything that has to be checked on the board.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Things to keep in mind
+      options:
+        - label: This touches the scan path, so nothing in it may wait or block
+        - label: This needs a hardware interface that does not exist yet
+        - label: This needs a change to the CubeMX .ioc file (one person at a time)
