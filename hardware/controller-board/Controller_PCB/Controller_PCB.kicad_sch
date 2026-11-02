@@ -4145,7 +4145,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "Amplitude Detection.kicad_sch"
 			(at 264.16 160.6046 0)
 			(show_name no)
 			(do_not_autoplace no)
