@@ -8,7 +8,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "-"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -430,13 +430,21 @@
         "uuid": "a062022b-d2b8-4d47-b17a-90e5c86275a3"
       }
     ],
-    "used_designators": "U1",
+    "used_designators": "#PWR1-17,C1-3,D1-4,R1-19,U1-4",
     "variants": []
   },
   "sheets": [
     [
       "a062022b-d2b8-4d47-b17a-90e5c86275a3",
       "Controller_PCB"
+    ],
+    [
+      "d85ebe2f-0413-41ce-a3d2-8988c513dbcd",
+      "Amplitude Detection"
+    ],
+    [
+      "3bdc1432-d1bf-40f4-87b5-08fc60ca6ad2",
+      "1V65Ref"
     ]
   ],
   "text_variables": {},
