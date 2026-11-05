@@ -95,7 +95,7 @@ Every folder has a short `README.md` saying what belongs in it. New to Git? Star
 | Tool | Used for | Version |
 | --- | --- | --- |
 | Git, plus GitHub Desktop if you prefer a GUI | Everything | Current |
-| KiCad | Schematics and PCB layout | Last year's files are KiCad 8.0.8. Team version `TBD(team)` |
+| KiCad | Schematics and PCB layout | **10.0.** The controller board is saved in 10.0 and CI checks with 10.0. Last year's files are 8.0.8 |
 | STM32CubeIDE | Firmware build, flash, debug | `TBD(team)` |
 | LTspice | Circuit simulation | Current |
 | CMake and a C compiler | Running the firmware unit tests on your PC | CMake 3.20 or newer |
