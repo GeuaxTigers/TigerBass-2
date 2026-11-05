@@ -11,6 +11,184 @@
 		(company "Joshua Wanga")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 238.76 132.08) (xy 264.16 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19b752f2-eec5-4d11-b1e5-c8773926048d")
+	)
+	(wire
+		(pts
+			(xy 238.76 137.16) (xy 264.16 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3025fbfc-a34d-4d0e-ae1a-d43653ffbc7a")
+	)
+	(wire
+		(pts
+			(xy 238.76 134.62) (xy 264.16 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ef7381f-781f-489a-a26f-fed5f808336f")
+	)
+	(wire
+		(pts
+			(xy 238.76 139.7) (xy 264.16 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4cff754-c7b4-4011-97b4-3342eb275b17")
+	)
+	(sheet
+		(at 264.16 76.2)
+		(size 54.61 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "321870c8-1aa0-4f67-9abd-41b2984abc13")
+		(property "Sheetname" "String Drive"
+			(at 264.16 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "string_drive.kicad_sch"
+			(at 264.16 99.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Controller_PCB"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195.58 76.2)
+		(size 43.18 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7a994c01-b757-4cde-83a6-e6e347c20d5e")
+		(property "Sheetname" "Power"
+			(at 195.58 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 195.58 99.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Controller_PCB"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195.58 172.72)
+		(size 43.18 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c9e47e2d-e7ef-4612-9323-71f169d68cb0")
+		(property "Sheetname" "USB and MIDI"
+			(at 195.58 172.0084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_midi.kicad_sch"
+			(at 195.58 196.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Controller_PCB"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3"
+					(page "7")
+				)
+			)
+		)
+	)
 	(sheet
 		(at 195.58 124.46)
 		(size 43.18 22.86)
@@ -93,52 +271,6 @@
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 195.58 76.2)
-		(size 43.18 22.86)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "7a994c01-b757-4cde-83a6-e6e347c20d5e")
-		(property "Sheetname" "Power"
-			(at 195.58 75.4884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "power.kicad_sch"
-			(at 195.58 99.5646 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3"
-					(page "3")
 				)
 			)
 		)
@@ -230,98 +362,6 @@
 		)
 	)
 	(sheet
-		(at 264.16 76.2)
-		(size 54.61 22.86)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "321870c8-1aa0-4f67-9abd-41b2984abc13")
-		(property "Sheetname" "String Drive"
-			(at 264.16 75.4884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "string_drive.kicad_sch"
-			(at 264.16 99.5646 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 195.58 172.72)
-		(size 43.18 22.86)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "c9e47e2d-e7ef-4612-9323-71f169d68cb0")
-		(property "Sheetname" "USB and MIDI"
-			(at 195.58 172.0084 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "usb_midi.kicad_sch"
-			(at 195.58 196.0846 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 264.16 172.72)
 		(size 54.61 22.86)
 		(exclude_from_sim no)
@@ -366,46 +406,6 @@
 				)
 			)
 		)
-	)
-	(wire
-		(pts
-			(xy 238.76 132.08) (xy 264.16 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19b752f2-eec5-4d11-b1e5-c8773926048d")
-	)
-	(wire
-		(pts
-			(xy 238.76 134.62) (xy 264.16 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ef7381f-781f-489a-a26f-fed5f808336f")
-	)
-	(wire
-		(pts
-			(xy 238.76 137.16) (xy 264.16 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3025fbfc-a34d-4d0e-ae1a-d43653ffbc7a")
-	)
-	(wire
-		(pts
-			(xy 238.76 139.7) (xy 264.16 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4cff754-c7b4-4011-97b4-3342eb275b17")
 	)
 	(sheet_instances
 		(path "/"
