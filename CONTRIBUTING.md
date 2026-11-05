@@ -135,7 +135,7 @@ KiCad schematic and board files are text, but one visible change, such as moving
 
 **One person edits a given KiCad file at a time.**
 
-A "file" here is one `.kicad_sch` sheet or one `.kicad_pcb` board. Splitting the schematic into hierarchical sheets, one per function, is what lets several people work on the same board at once: one person on the power sheet, another on the ADC sheet.
+A "file" here is one `.kicad_sch` sheet or one `.kicad_pcb` board. Splitting the schematic into hierarchical sheets, one per function, is what lets several people work on the same board at once: one person on the power sheet, another on the ADC sheet. How the controller board is split, and the reference numbers each sheet uses, is in [`hardware/controller-board/README.md`](hardware/controller-board/README.md#how-the-schematic-is-organised).
 
 There is only one board file per board. Layout is one person at a time.
 
