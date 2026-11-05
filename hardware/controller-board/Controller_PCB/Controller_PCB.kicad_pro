@@ -303,7 +303,7 @@
   "schematic": {
     "annotate_start_num": 0,
     "annotation": {
-      "method": 0,
+      "method": 1,
       "sort_order": 0
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
@@ -430,7 +430,7 @@
         "uuid": "a062022b-d2b8-4d47-b17a-90e5c86275a3"
       }
     ],
-    "used_designators": "#PWR1-32,C1-10,D1-4,IC1,R1-23,U1-4",
+    "used_designators": "#PWR1-28,C1-10,D1-4,R1-23,R201,U1-4",
     "variants": []
   },
   "sheets": [
@@ -439,12 +439,32 @@
       "Controller_PCB"
     ],
     [
+      "ca04b7d2-49b5-4a8b-aba5-90a726f1894c",
+      "MCU"
+    ],
+    [
+      "7a994c01-b757-4cde-83a6-e6e347c20d5e",
+      "Power"
+    ],
+    [
       "d85ebe2f-0413-41ce-a3d2-8988c513dbcd",
       "Amplitude Detection"
     ],
     [
       "3bdc1432-d1bf-40f4-87b5-08fc60ca6ad2",
       "1V65Ref"
+    ],
+    [
+      "321870c8-1aa0-4f67-9abd-41b2984abc13",
+      "String Drive"
+    ],
+    [
+      "c9e47e2d-e7ef-4612-9323-71f169d68cb0",
+      "USB and MIDI"
+    ],
+    [
+      "f6529480-2b13-4e5f-9229-bd39de275fe1",
+      "Connectors"
     ]
   ],
   "text_variables": {},

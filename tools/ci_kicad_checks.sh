@@ -11,7 +11,7 @@
 # For each project it:
 #   - runs ERC on the root schematic and DRC on the board, and fails on
 #     any violation of "error" severity (warnings are reported, not fatal)
-#   - exports a schematic PDF and a BOM, for review and for the record
+#   - exports a schematic PDF, a netlist and a BOM, for review and for the record
 #
 # It keeps going after a failure so that every report is produced, then
 # exits non-zero if anything failed.
@@ -53,6 +53,10 @@ while IFS= read -r project; do
         echo "--- Schematic PDF"
         kicad-cli sch export pdf --output "${out}/${name}-schematic.pdf" "${sch}" \
             || { echo "::error file=${sch}::Schematic PDF export failed."; failures=$((failures + 1)); }
+
+        echo "--- Netlist"
+        kicad-cli sch export netlist --format kicadxml --output "${out}/${name}-netlist.xml" "${sch}" \
+            || { echo "::error file=${sch}::Netlist export failed."; failures=$((failures + 1)); }
 
         echo "--- BOM"
         kicad-cli sch export bom --output "${out}/${name}-bom.csv" "${sch}" \

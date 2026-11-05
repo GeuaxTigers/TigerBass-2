@@ -16,7 +16,7 @@ env:
   # version the team installs (README, "Getting set up", and
   # docs/decisions/0011-tool-versions.md). Change all three together.
   # This is a tag of the official kicad/kicad container image.
-  KICAD_VERSION: "8.0"
+  KICAD_VERSION: "10.0"
   MARKDOWNLINT_VERSION: "0.23.3"
 
 permissions:

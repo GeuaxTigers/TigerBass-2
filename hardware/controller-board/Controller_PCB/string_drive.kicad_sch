@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "f58c0869-9932-43a9-af5a-67f27aec6860")
+	(paper "A4")
+	(title_block
+		(title "String Drive")
+		(date "2026-11-05")
+		(rev "-")
+	)
+	(lib_symbols)
+)
