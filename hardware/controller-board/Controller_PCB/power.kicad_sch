@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "54bbaead-bbbd-4492-bfcf-a54be5634793")
+	(paper "A4")
+	(title_block
+		(title "Power")
+		(date "2026-11-05")
+		(rev "-")
+	)
+	(lib_symbols)
+)

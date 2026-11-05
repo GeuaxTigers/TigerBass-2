@@ -3142,7 +3142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03b7d0a9-8200-4bde-bf30-93458ede55ac")
-		(property "Reference" "D2"
+		(property "Reference" "D402"
 			(at 114.3 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3208,7 +3208,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "D2")
+					(reference "D402")
 					(unit 1)
 				)
 			)
@@ -3226,7 +3226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0800bdf3-07a8-4d7f-ba55-f70d95ced9d0")
-		(property "Reference" "U3"
+		(property "Reference" "U401"
 			(at 137.16 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3324,7 +3324,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "U3")
+					(reference "U401")
 					(unit 1)
 				)
 			)
@@ -3342,7 +3342,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b7a7c3c-edb4-4e42-92ec-bb4dccc25221")
-		(property "Reference" "D3"
+		(property "Reference" "D403"
 			(at 114.3 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3408,7 +3408,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "D3")
+					(reference "D403")
 					(unit 1)
 				)
 			)
@@ -3662,7 +3662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d3b5b6e-a029-42aa-a727-11bbd360e6fa")
-		(property "Reference" "U2"
+		(property "Reference" "U402"
 			(at 220.5833 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3768,7 +3768,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "U2")
+					(reference "U402")
 					(unit 1)
 				)
 			)
@@ -3786,7 +3786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20fc5b92-3c4d-4de7-a160-8f0c6bf8ee72")
-		(property "Reference" "R1"
+		(property "Reference" "R404"
 			(at 93.98 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3848,7 +3848,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "R1")
+					(reference "R404")
 					(unit 1)
 				)
 			)
@@ -3945,7 +3945,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a0dadf1-2744-43df-98ec-df41f7627b5c")
-		(property "Reference" "U3"
+		(property "Reference" "U401"
 			(at 137.16 90.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4043,7 +4043,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "U3")
+					(reference "U401")
 					(unit 2)
 				)
 			)
@@ -4061,7 +4061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c013f82-78d2-4090-944a-a2bd9044aa5b")
-		(property "Reference" "R15"
+		(property "Reference" "R414"
 			(at 149.86 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4123,7 +4123,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "R15")
+					(reference "R414")
 					(unit 1)
 				)
 			)
@@ -4141,7 +4141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2cc99400-d060-420c-aec8-7658547b6f7e")
-		(property "Reference" "R8"
+		(property "Reference" "R408"
 			(at 116.84 147.3199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4205,7 +4205,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "R8")
+					(reference "R408")
 					(unit 1)
 				)
 			)
@@ -4223,7 +4223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "324528da-6516-442a-864b-1d679af5b1c0")
-		(property "Reference" "R16"
+		(property "Reference" "R411"
 			(at 148.59 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4287,7 +4287,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "R16")
+					(reference "R411")
 					(unit 1)
 				)
 			)
@@ -4384,7 +4384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "373bd28b-3690-4d75-a3dd-a8972f395a1d")
-		(property "Reference" "D1"
+		(property "Reference" "D401"
 			(at 114.3 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4450,7 +4450,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "D1")
+					(reference "D401")
 					(unit 1)
 				)
 			)
@@ -4547,7 +4547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3892f283-6c5e-4cb5-ae7a-09c29ab72ea9")
-		(property "Reference" "R3"
+		(property "Reference" "R401"
 			(at 91.44 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4609,7 +4609,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "R3")
+					(reference "R401")
 					(unit 1)
 				)
 			)
@@ -4627,7 +4627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38a37c35-9d8b-4d0a-a1c6-6cf570d8c3c3")
-		(property "Reference" "R22"
+		(property "Reference" "R419"
 			(at 157.48 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4689,7 +4689,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "R22")
+					(reference "R419")
 					(unit 1)
 				)
 			)
@@ -4707,7 +4707,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d25d09c-e2ea-45dd-98d6-48281fb42f84")
-		(property "Reference" "R7"
+		(property "Reference" "R407"
 			(at 116.84 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4771,7 +4771,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "R7")
+					(reference "R407")
 					(unit 1)
 				)
 			)
@@ -4789,7 +4789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "457f476a-5051-4baf-8131-50e0c20646c5")
-		(property "Reference" "R5"
+		(property "Reference" "R405"
 			(at 116.84 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4853,7 +4853,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "R5")
+					(reference "R405")
 					(unit 1)
 				)
 			)
@@ -5028,7 +5028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a2eab17-3653-4fa9-8edc-bb65948e5958")
-		(property "Reference" "U3"
+		(property "Reference" "U401"
 			(at 137.16 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5126,7 +5126,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "U3")
+					(reference "U401")
 					(unit 4)
 				)
 			)
@@ -5144,7 +5144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "581daca5-62cc-45e2-97cf-418884cc8974")
-		(property "Reference" "R13"
+		(property "Reference" "R409"
 			(at 148.59 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5208,7 +5208,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "R13")
+					(reference "R409")
 					(unit 1)
 				)
 			)
@@ -5383,7 +5383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6194fbfc-4d7a-4c79-9288-f79972ab63b7")
-		(property "Reference" "R2"
+		(property "Reference" "R402"
 			(at 92.71 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5445,7 +5445,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "R2")
+					(reference "R402")
 					(unit 1)
 				)
 			)
@@ -5463,7 +5463,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63274315-d060-4caa-9e60-e9aac138fa0a")
-		(property "Reference" "R17"
+		(property "Reference" "R415"
 			(at 149.86 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5525,7 +5525,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "R17")
+					(reference "R415")
 					(unit 1)
 				)
 			)
@@ -5543,7 +5543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67254ef9-a4b5-4fa0-aebd-fd019271440c")
-		(property "Reference" "R21"
+		(property "Reference" "R418"
 			(at 157.48 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5605,7 +5605,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "R21")
+					(reference "R418")
 					(unit 1)
 				)
 			)
@@ -5623,7 +5623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b087778-39e4-4fb6-a574-c54a1899bd14")
-		(property "Reference" "C10"
+		(property "Reference" "C401"
 			(at 46.99 66.0399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5687,7 +5687,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "C10")
+					(reference "C401")
 					(unit 1)
 				)
 			)
@@ -5863,7 +5863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7cbcd2e4-0f44-4ce9-ab20-f2a84ef3dcbf")
-		(property "Reference" "C4"
+		(property "Reference" "C402"
 			(at 165.1 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5925,7 +5925,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "C4")
+					(reference "C402")
 					(unit 1)
 				)
 			)
@@ -5943,7 +5943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87b720bc-3299-4e73-a922-c4955ecb01b7")
-		(property "Reference" "R20"
+		(property "Reference" "R417"
 			(at 157.48 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6005,7 +6005,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "R20")
+					(reference "R417")
 					(unit 1)
 				)
 			)
@@ -6023,7 +6023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87c913e9-f6a7-404a-9d4a-89c9142c9543")
-		(property "Reference" "R4"
+		(property "Reference" "R403"
 			(at 92.71 138.43 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6085,7 +6085,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "R4")
+					(reference "R403")
 					(unit 1)
 				)
 			)
@@ -6103,7 +6103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98a276cc-8289-4049-848b-ee430d5e0e9b")
-		(property "Reference" "R19"
+		(property "Reference" "R416"
 			(at 149.86 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6165,7 +6165,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "R19")
+					(reference "R416")
 					(unit 1)
 				)
 			)
@@ -6183,7 +6183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a31213b6-1087-4424-9a3c-857f255743b0")
-		(property "Reference" "C6"
+		(property "Reference" "C404"
 			(at 165.1 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6245,7 +6245,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "C6")
+					(reference "C404")
 					(unit 1)
 				)
 			)
@@ -6263,7 +6263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a45dd705-7b42-461c-865c-c66ed585cd95")
-		(property "Reference" "D4"
+		(property "Reference" "D404"
 			(at 114.3 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6329,7 +6329,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "D4")
+					(reference "D404")
 					(unit 1)
 				)
 			)
@@ -6347,7 +6347,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a47978d1-94fc-4a59-b360-d8bc9476f1a5")
-		(property "Reference" "R18"
+		(property "Reference" "R412"
 			(at 148.59 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6411,7 +6411,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "R18")
+					(reference "R412")
 					(unit 1)
 				)
 			)
@@ -6429,7 +6429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a945da81-6086-452d-b223-35ae8098aca3")
-		(property "Reference" "R6"
+		(property "Reference" "R406"
 			(at 116.84 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6493,7 +6493,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "R6")
+					(reference "R406")
 					(unit 1)
 				)
 			)
@@ -6668,7 +6668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7dae027-32be-4733-84fe-3ceefa7887d9")
-		(property "Reference" "C5"
+		(property "Reference" "C403"
 			(at 165.1 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6730,7 +6730,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "C5")
+					(reference "C403")
 					(unit 1)
 				)
 			)
@@ -6748,7 +6748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8bd3ca3-d0b1-44b3-bbb8-ae5a234d516d")
-		(property "Reference" "R12"
+		(property "Reference" "R413"
 			(at 149.86 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6810,7 +6810,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "R12")
+					(reference "R413")
 					(unit 1)
 				)
 			)
@@ -6828,7 +6828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc820d7d-5b0b-4bc8-adbe-4fb858dda284")
-		(property "Reference" "U3"
+		(property "Reference" "U401"
 			(at 62.23 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6928,7 +6928,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "U3")
+					(reference "U401")
 					(unit 5)
 				)
 			)
@@ -7024,7 +7024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1d93776-9844-4695-b230-69c743163a1d")
-		(property "Reference" "R23"
+		(property "Reference" "R420"
 			(at 157.48 140.97 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7086,7 +7086,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "R23")
+					(reference "R420")
 					(unit 1)
 				)
 			)
@@ -7183,7 +7183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d130bb55-46c8-42fc-9ce5-fc1874a89b3f")
-		(property "Reference" "C7"
+		(property "Reference" "C405"
 			(at 165.1 139.7 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7245,7 +7245,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "C7")
+					(reference "C405")
 					(unit 1)
 				)
 			)
@@ -7263,7 +7263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e242c26b-04ef-44b6-b4c2-fcaf59d7395e")
-		(property "Reference" "U3"
+		(property "Reference" "U401"
 			(at 137.16 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7361,7 +7361,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "U3")
+					(reference "U401")
 					(unit 3)
 				)
 			)
@@ -7379,7 +7379,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e73ab39c-c2d0-4a7d-afd3-a4b6ba5770ec")
-		(property "Reference" "C8"
+		(property "Reference" "C407"
 			(at 222.25 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7441,7 +7441,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "C8")
+					(reference "C407")
 					(unit 1)
 				)
 			)
@@ -7459,7 +7459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee661b07-f164-4dd8-b62c-4c53c4490128")
-		(property "Reference" "R14"
+		(property "Reference" "R410"
 			(at 148.59 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7523,7 +7523,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "R14")
+					(reference "R410")
 					(unit 1)
 				)
 			)
@@ -7699,7 +7699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f68256e9-4df2-4baf-88d8-3c0e79fad54c")
-		(property "Reference" "C9"
+		(property "Reference" "C406"
 			(at 208.28 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7761,7 +7761,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(reference "C9")
+					(reference "C406")
 					(unit 1)
 				)
 			)
@@ -7873,7 +7873,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "1V65Ref.kicad_sch"
+		(property "Sheetfile" "1v65_ref.kicad_sch"
 			(at 74.93 48.8446 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7887,7 +7887,7 @@
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(page "3")
+					(page "5")
 				)
 			)
 		)
