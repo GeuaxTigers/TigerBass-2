@@ -2086,6 +2086,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 144.78) (xy 88.9 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02959bc4-76ec-4f07-8b17-23d976c41a45")
+	)
+	(wire
+		(pts
 			(xy 218.44 80.01) (xy 218.44 83.82)
 		)
 		(stroke
@@ -2223,16 +2233,6 @@
 			(type default)
 		)
 		(uuid "28f75ce3-b003-4fa1-afe9-4de9cb1dc643")
-	)
-	(wire
-		(pts
-			(xy 72.39 97.79) (xy 88.9 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c4aa6a1-1606-4b88-bcd2-8f41ae466a72")
 	)
 	(wire
 		(pts
@@ -2636,13 +2636,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 144.78) (xy 88.9 144.78)
+			(xy 81.28 123.19) (xy 87.63 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae0b632f-0b39-4476-adba-4e02f08ba513")
+		(uuid "ae4ca6fd-c00f-4b66-b1d6-13d1753d8290")
 	)
 	(wire
 		(pts
@@ -2683,16 +2683,6 @@
 			(type default)
 		)
 		(uuid "bbd057f2-0342-49ae-bc66-fa5e805ca6e6")
-	)
-	(wire
-		(pts
-			(xy 72.39 123.19) (xy 87.63 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2474d6a-fe6d-4ee7-9bea-bada8e5ddee4")
 	)
 	(wire
 		(pts
@@ -2763,16 +2753,6 @@
 			(type default)
 		)
 		(uuid "d45ddc3f-a5b7-43a0-bd5d-5c8407570d13")
-	)
-	(wire
-		(pts
-			(xy 74.93 74.93) (xy 90.17 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d49da345-c881-4cc4-b3b4-7229f6a6ce3e")
 	)
 	(wire
 		(pts
@@ -2854,8 +2834,28 @@
 		)
 		(uuid "f4fe7d67-16d0-4e16-96f5-f5a5840d8213")
 	)
+	(wire
+		(pts
+			(xy 82.55 97.79) (xy 88.9 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa9cb198-2c3d-4188-bad0-a50cf731c797")
+	)
+	(wire
+		(pts
+			(xy 90.17 74.93) (xy 85.09 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe8a654-5105-4bf5-b734-16efa931f1cb")
+	)
 	(label "Piezo_A+"
-		(at 72.39 97.79 0)
+		(at 72.39 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2865,7 +2865,7 @@
 		(uuid "4df35620-00b6-4dc6-a09d-5b79d80fcdf9")
 	)
 	(label "Piezo_G+"
-		(at 73.66 144.78 0)
+		(at 73.66 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2875,7 +2875,7 @@
 		(uuid "592c51a7-970f-4668-bd5f-5d983fca4813")
 	)
 	(label "Piezo_E+"
-		(at 74.93 74.93 0)
+		(at 77.47 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2885,7 +2885,7 @@
 		(uuid "7b4d54de-3c71-4f37-918a-69b2302ea8f6")
 	)
 	(label "Piezo_D+"
-		(at 72.39 123.19 0)
+		(at 72.39 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3086,6 +3086,17 @@
 			)
 		)
 	)
+	(hierarchical_label "Pickup_2"
+		(shape output)
+		(at 82.55 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "32e11179-380b-416e-9569-d72999927d70")
+	)
 	(hierarchical_label "ADC_MOSI"
 		(shape bidirectional)
 		(at 234.95 102.87 0)
@@ -3118,6 +3129,39 @@
 			(justify left)
 		)
 		(uuid "76444133-8b27-4e82-949d-f579253615dd")
+	)
+	(hierarchical_label "Pickup_4"
+		(shape output)
+		(at 82.55 144.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "916ee3e9-cdfc-44e7-9fa2-41c4b19904d0")
+	)
+	(hierarchical_label "Pickup_1"
+		(shape output)
+		(at 85.09 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5d98d23-ef85-431b-8ec3-506a0de59713")
+	)
+	(hierarchical_label "Pickup_3"
+		(shape output)
+		(at 81.28 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3c807e2-036e-4d2a-9938-62517317d6ee")
 	)
 	(hierarchical_label "ADC_MISO"
 		(shape bidirectional)
