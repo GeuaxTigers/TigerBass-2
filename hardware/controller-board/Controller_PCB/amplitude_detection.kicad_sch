@@ -3087,7 +3087,7 @@
 		)
 	)
 	(hierarchical_label "ADC_MOSI"
-		(shape bidirectional)
+		(shape input)
 		(at 234.95 102.87 0)
 		(effects
 			(font
@@ -3098,7 +3098,7 @@
 		(uuid "59def731-fe25-4eb5-a00e-07a4fb55579d")
 	)
 	(hierarchical_label "ADC_CS"
-		(shape bidirectional)
+		(shape input)
 		(at 234.95 105.41 0)
 		(effects
 			(font
@@ -3109,7 +3109,7 @@
 		(uuid "62c426bf-ad7b-4957-adae-c9a3b870e561")
 	)
 	(hierarchical_label "ADC_SCK"
-		(shape bidirectional)
+		(shape input)
 		(at 234.95 97.79 0)
 		(effects
 			(font
@@ -3120,7 +3120,7 @@
 		(uuid "76444133-8b27-4e82-949d-f579253615dd")
 	)
 	(hierarchical_label "ADC_MISO"
-		(shape bidirectional)
+		(shape output)
 		(at 234.95 100.33 0)
 		(effects
 			(font
