@@ -33,6 +33,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 160.02) (xy 269.24 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cc594f2-a498-4a5b-bda3-ebba12793024")
+	)
+	(wire
+		(pts
 			(xy 238.76 137.16) (xy 264.16 137.16)
 		)
 		(stroke
@@ -53,6 +63,26 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 160.02) (xy 279.4 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4116f7b9-da58-4e2e-be64-e3ccc812620d")
+	)
+	(wire
+		(pts
+			(xy 276.86 160.02) (xy 276.86 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dd4c90b-aeb8-45fd-b389-62658346fbb1")
+	)
+	(wire
+		(pts
 			(xy 241.3 142.24) (xy 238.76 142.24)
 		)
 		(stroke
@@ -60,6 +90,16 @@
 			(type default)
 		)
 		(uuid "4ee1447f-600a-4f92-9faf-31b98dc1aa8b")
+	)
+	(wire
+		(pts
+			(xy 271.78 160.02) (xy 271.78 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d1046e-e900-40c9-b560-0e9f2da9408c")
 	)
 	(wire
 		(pts
@@ -83,6 +123,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 160.02) (xy 281.94 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9793fae5-0244-4bd2-9d77-beedcd0240db")
+	)
+	(wire
+		(pts
 			(xy 238.76 134.62) (xy 264.16 134.62)
 		)
 		(stroke
@@ -93,6 +143,26 @@
 	)
 	(wire
 		(pts
+			(xy 284.48 160.02) (xy 284.48 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a482fe64-c89a-43b1-b543-122456dbcc83")
+	)
+	(wire
+		(pts
+			(xy 287.02 160.02) (xy 287.02 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1e9799e-b320-401c-9f4a-590163cf94c9")
+	)
+	(wire
+		(pts
 			(xy 238.76 139.7) (xy 264.16 139.7)
 		)
 		(stroke
@@ -100,6 +170,16 @@
 			(type default)
 		)
 		(uuid "e4cff754-c7b4-4011-97b4-3342eb275b17")
+	)
+	(wire
+		(pts
+			(xy 274.32 160.02) (xy 274.32 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e641ec12-b979-4194-b149-e7090ea23c3c")
 	)
 	(sheet
 		(at 264.16 76.2)
@@ -423,6 +503,86 @@
 				(justify left)
 			)
 		)
+		(pin "Piezo_A+" input
+			(at 269.24 160.02 270)
+			(uuid "ace79991-d75d-468e-94f3-a1aa6dba053e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Piezo_A-" input
+			(at 271.78 160.02 270)
+			(uuid "244764c3-700c-41a5-bd18-c4111492e18f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Piezo_D+" input
+			(at 274.32 160.02 270)
+			(uuid "6d74d4cf-5a06-4f69-81bd-9575f2d9cfb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Piezo_D-" input
+			(at 276.86 160.02 270)
+			(uuid "fbba3cc7-26cf-4b95-9ed7-fb4c3671c804")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Piezo_E+" input
+			(at 279.4 160.02 270)
+			(uuid "3ad52f42-cae0-4d36-bebb-d5ef9401bb4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Piezo_E-" input
+			(at 281.94 160.02 270)
+			(uuid "1c52b4f6-e37c-4140-a70e-f95c27031c46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Piezo_G+" input
+			(at 284.48 160.02 270)
+			(uuid "8dacd58a-8ead-4878-9ce9-e7b34a437e8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Piezo_G-" input
+			(at 287.02 160.02 270)
+			(uuid "c6c0c0ec-a7c9-4463-8153-54e3481d2d59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3"
@@ -467,6 +627,86 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "Piezo_A+" input
+			(at 269.24 172.72 90)
+			(uuid "22e9b8eb-3577-4a29-9225-71abc413bcce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Piezo_A-" input
+			(at 271.78 172.72 90)
+			(uuid "129eb3db-0714-4284-aa45-8afd52b3ec27")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Piezo_D+" input
+			(at 274.32 172.72 90)
+			(uuid "22291bb1-f8ba-49dd-a7b1-26fdb1c53179")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Piezo_D-" input
+			(at 276.86 172.72 90)
+			(uuid "088f4c03-e643-4559-91eb-45f02dee6f17")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Piezo_E+" input
+			(at 279.4 172.72 90)
+			(uuid "27850ddb-128e-434d-ad7c-0823faeb89f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Piezo_E-" input
+			(at 281.94 172.72 90)
+			(uuid "1b5516e2-2934-4f4f-9f4a-a752c5fd713a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Piezo_G+" input
+			(at 284.48 172.72 90)
+			(uuid "b2beb319-6468-4a46-838f-a3cebb2585e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Piezo_G-" input
+			(at 287.02 172.72 90)
+			(uuid "8bb03c4a-7183-433f-bab5-e0656e34058d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

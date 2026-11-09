@@ -10,4 +10,260 @@
 		(rev "-")
 	)
 	(lib_symbols)
+	(global_label "D+"
+		(shape bidirectional)
+		(at 96.52 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1bbac3ca-718f-422a-a2fe-417916261d57")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.5811 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "TRS_TIP"
+		(shape input)
+		(at 149.86 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4e77c82a-2e7c-421b-898d-c04f221c0738")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.1023 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "TRS_RING"
+		(shape input)
+		(at 149.86 49.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5172499f-9e17-4cce-9a41-788877630b58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.7352 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VBUS_TVS"
+		(shape bidirectional)
+		(at 124.46 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aca65eef-a122-424a-bc2a-87a01189bcaf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 137.6884 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "TRS_Sleeve"
+		(shape output)
+		(at 149.86 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce5cbd17-ea63-4fe3-ad3c-10f1d7106e05")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.368 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VBUS_Sense"
+		(shape bidirectional)
+		(at 104.14 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d1438119-fcde-48f8-ba12-e0e92c3e0781")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.6135 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "D-"
+		(shape bidirectional)
+		(at 96.52 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db812850-3648-4f5d-bde9-354b4c9afe9d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.5811 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(hierarchical_label "Piezo_E+"
+		(shape input)
+		(at 191.77 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "25a30965-73e0-417c-8e5a-7d515fae7046")
+	)
+	(hierarchical_label "Piezo_A-"
+		(shape input)
+		(at 190.5 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "496f28a3-ae83-4bdd-b09d-6aac9587081a")
+	)
+	(hierarchical_label "Piezo_A+"
+		(shape input)
+		(at 190.5 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6bd08bb7-4f16-4013-bbee-5647d78201c1")
+	)
+	(hierarchical_label "Piezo_D-"
+		(shape input)
+		(at 189.23 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70465e5e-1117-48a4-9853-a01b0257c366")
+	)
+	(hierarchical_label "Piezo_E-"
+		(shape input)
+		(at 191.77 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db55209b-f6d2-4e55-b21b-8825c96725af")
+	)
+	(hierarchical_label "Piezo_G-"
+		(shape input)
+		(at 190.5 148.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e16a6b7a-2393-419f-87ed-b382c08db862")
+	)
+	(hierarchical_label "Piezo_G+"
+		(shape input)
+		(at 190.5 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e91ab5f8-7e15-4058-a657-20044a3d9b18")
+	)
+	(hierarchical_label "Piezo_D+"
+		(shape input)
+		(at 189.23 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f236de44-1377-4ebe-a9bd-2d770206e1de")
+	)
 )
