@@ -305,6 +305,325 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:PESD3V3U1UL"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PESD3V3U1UL"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-882"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD3V3U1UL.pdf"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ultra low capacitance unidirectional ESD protection diode, 3.3V, SOD-882"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?882"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PESD3V3U1UL_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PESD3V3U1UL_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:SMF5V0A"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMF5V0A"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMF"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/doc?85881"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 5Vrwm, SMF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode TVS voltage suppressor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SMF*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SMF5V0A_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMF5V0A_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SamacSys_Parts:SN74LVC1G17DBVR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -813,6 +1132,24 @@
 		)
 	)
 	(junction
+		(at 87.63 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4981f0bb-22e9-46f3-a0e4-86a577d9d335")
+	)
+	(junction
+		(at 96.52 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b884420c-8e08-4057-8434-f676b457667d")
+	)
+	(junction
+		(at 96.52 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc466c98-936c-4666-9c4c-c7a6cad5a537")
+	)
+	(junction
 		(at 99.06 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -830,6 +1167,46 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 123.19) (xy 87.63 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38129296-84bf-4f38-8790-3065b27d5572")
+	)
+	(wire
+		(pts
+			(xy 96.52 139.7) (xy 96.52 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ff5c6a7-b6d7-41eb-bbb6-065ef965453e")
+	)
+	(wire
+		(pts
+			(xy 87.63 130.81) (xy 96.52 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f33b92b-f9d1-4bf2-96a5-d1b3fb73f516")
+	)
+	(wire
+		(pts
+			(xy 77.47 120.65) (xy 87.63 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "971e5208-7825-474b-a3a5-2fc527144d4d")
+	)
+	(wire
+		(pts
 			(xy 119.38 76.2) (xy 119.38 81.28)
 		)
 		(stroke
@@ -837,6 +1214,16 @@
 			(type default)
 		)
 		(uuid "9c9e65a7-584e-4f84-be88-08bf521fdd4f")
+	)
+	(wire
+		(pts
+			(xy 85.09 147.32) (xy 96.52 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5f57b22-8076-445e-87e7-0ada292cfab7")
 	)
 	(wire
 		(pts
@@ -857,6 +1244,40 @@
 			(type default)
 		)
 		(uuid "da6c25c4-544d-455a-aa0c-703cb39d9396")
+	)
+	(wire
+		(pts
+			(xy 96.52 138.43) (xy 105.41 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f274e5cc-006f-4b73-a75a-ec6449fa3942")
+	)
+	(global_label "D-"
+		(shape bidirectional)
+		(at 77.47 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "31d5cf8f-ac2f-42e9-bc2e-ccc9d6fb2b59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.5311 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(global_label "TRS_RING"
 		(shape input)
@@ -879,6 +1300,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "D+"
+		(shape bidirectional)
+		(at 77.47 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "846b58e6-b7e4-4759-964c-8f39825bf698")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.5311 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -930,6 +1375,54 @@
 			)
 		)
 	)
+	(global_label "VBUS_Sense"
+		(shape bidirectional)
+		(at 85.09 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1d3317c-03d4-4378-a089-4a85d495e2f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.5635 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VBUS_TVS"
+		(shape bidirectional)
+		(at 105.41 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fee8283f-98db-44a6-a0c2-c60c20ad8f6d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.6384 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(hierarchical_label "UART_TX_MIDI"
 		(shape input)
 		(at 71.12 90.17 180)
@@ -940,6 +1433,170 @@
 			(justify right)
 		)
 		(uuid "d1c5b0ad-12c3-4333-8975-4f8653299350")
+	)
+	(symbol
+		(lib_id "Diode:PESD3V3U1UL")
+		(at 87.63 127 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06b412e8-ab39-4a8f-98a0-d83a2c316516")
+		(property "Reference" "D702"
+			(at 90.17 125.7299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PESD3V3U1UL"
+			(at 90.17 128.2699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 82.55 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD3V3U1UL.pdf"
+			(at 92.71 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ultra low capacitance unidirectional ESD protection diode, 3.3V, SOD-882"
+			(at 95.25 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "57d34f10-72a5-4f6a-b07a-dd0342d8d17f")
+		)
+		(pin "1"
+			(uuid "790c473f-6f3e-4ac4-b9fb-7ba2c960d694")
+		)
+		(instances
+			(project "Controller_PCB"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/c9e47e2d-e7ef-4612-9323-71f169d68cb0"
+					(reference "D702")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:PESD3V3U1UL")
+		(at 87.63 116.84 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "102c6170-01f9-48d7-93e2-6b13a54e0cc3")
+		(property "Reference" "D703"
+			(at 90.17 115.5699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PESD3V3U1UL"
+			(at 90.17 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-882"
+			(at 92.71 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD3V3U1UL.pdf"
+			(at 82.55 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ultra low capacitance unidirectional ESD protection diode, 3.3V, SOD-882"
+			(at 80.01 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3eecfa10-3b47-4e4a-9cd3-362c30a88b30")
+		)
+		(pin "1"
+			(uuid "adbdc91d-0c7d-401b-8144-98cc6d767ac6")
+		)
+		(instances
+			(project "Controller_PCB"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/c9e47e2d-e7ef-4612-9323-71f169d68cb0"
+					(reference "D703")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1093,6 +1750,84 @@
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/c9e47e2d-e7ef-4612-9323-71f169d68cb0"
 					(reference "#PWR0703")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 130.81 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "404b6136-a34d-4506-9fc7-67b1e00b5336")
+		(property "Reference" "#PWR0707"
+			(at 87.63 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "918acd77-3126-43fc-9cf9-20b0ea5adfe4")
+		)
+		(instances
+			(project "Controller_PCB"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/c9e47e2d-e7ef-4612-9323-71f169d68cb0"
+					(reference "#PWR0707")
 					(unit 1)
 				)
 			)
@@ -1262,6 +1997,162 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 87.63 113.03 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5989707f-c6f4-497a-968f-40bb093a3e87")
+		(property "Reference" "#PWR0706"
+			(at 87.63 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54091e67-a6f8-49ce-8f76-d77a8c033632")
+		)
+		(instances
+			(project "Controller_PCB"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/c9e47e2d-e7ef-4612-9323-71f169d68cb0"
+					(reference "#PWR0706")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 96.52 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c7b1afd-6d27-4384-a71f-e2dc55e2d82b")
+		(property "Reference" "#PWR0708"
+			(at 96.52 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 96.52 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32d04fad-41fb-47a5-8f74-0cc703277a75")
+		)
+		(instances
+			(project "Controller_PCB"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/c9e47e2d-e7ef-4612-9323-71f169d68cb0"
+					(reference "#PWR0708")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 130.81 91.44 270)
 		(unit 1)
 		(body_style 1)
@@ -1334,6 +2225,170 @@
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/c9e47e2d-e7ef-4612-9323-71f169d68cb0"
 					(reference "#PWR0705")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 96.52 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a8b5e3e-7146-409f-9295-e8b517efd003")
+		(property "Reference" "R704"
+			(at 99.06 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33k"
+			(at 99.06 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 94.742 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 96.52 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d78718d0-1caf-44b3-a079-8998efb2402c")
+		)
+		(pin "2"
+			(uuid "628967d8-2f60-4102-b7c2-7370a99e35f7")
+		)
+		(instances
+			(project "Controller_PCB"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/c9e47e2d-e7ef-4612-9323-71f169d68cb0"
+					(reference "R704")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 96.52 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a71cc338-9aad-42c0-a2b0-0d5995f27de1")
+		(property "Reference" "R703"
+			(at 99.06 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "82k"
+			(at 99.06 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 94.742 151.13 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 96.52 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "91be4f3f-e17b-4e70-8629-5af79653dd96")
+		)
+		(pin "2"
+			(uuid "782bbef0-b362-40a3-89f6-985b7c4fe4e5")
+		)
+		(instances
+			(project "Controller_PCB"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/c9e47e2d-e7ef-4612-9323-71f169d68cb0"
+					(reference "R703")
 					(unit 1)
 				)
 			)
@@ -1588,6 +2643,88 @@
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/c9e47e2d-e7ef-4612-9323-71f169d68cb0"
 					(reference "#PWR0701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMF5V0A")
+		(at 96.52 134.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8b311de-8a5c-44ab-a374-f673b447917a")
+		(property "Reference" "D701"
+			(at 99.06 133.3499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMF5V0A"
+			(at 99.06 135.8899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMF"
+			(at 101.6 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?85881"
+			(at 96.52 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200W unidirectional Transil Transient Voltage Suppressor, 5Vrwm, SMF"
+			(at 96.52 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05ad918f-358a-41d8-ba3e-42c7a22152c5")
+		)
+		(pin "2"
+			(uuid "c55deec0-ccd6-4ec9-b92c-23f4c14079e7")
+		)
+		(instances
+			(project "Controller_PCB"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/c9e47e2d-e7ef-4612-9323-71f169d68cb0"
+					(reference "D701")
 					(unit 1)
 				)
 			)

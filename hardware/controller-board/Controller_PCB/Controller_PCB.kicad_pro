@@ -430,7 +430,7 @@
         "uuid": "a062022b-d2b8-4d47-b17a-90e5c86275a3"
       }
     ],
-    "used_designators": "#PWR1-28,#PWR701-705,C1-10,C701,D1-4,IC701,J701,J801,R1-23,R701-702,U1-4",
+    "used_designators": "#PWR1-28,#PWR701-708,C1-10,C701,D1-4,D701-703,IC701,J701,J801,R1-23,R701-704,U1-4",
     "variants": []
   },
   "sheets": [
