@@ -3279,7 +3279,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "D402")
 					(unit 1)
 				)
@@ -3395,7 +3395,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "U401")
 					(unit 1)
 				)
@@ -3479,7 +3479,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "D403")
 					(unit 1)
 				)
@@ -3558,7 +3558,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "#PWR014")
 					(unit 1)
 				)
@@ -3636,7 +3636,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "#PWR018")
 					(unit 1)
 				)
@@ -3715,7 +3715,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "#PWR022")
 					(unit 1)
 				)
@@ -3839,7 +3839,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "U402")
 					(unit 1)
 				)
@@ -3919,7 +3919,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "R404")
 					(unit 1)
 				)
@@ -3998,7 +3998,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "#PWR026")
 					(unit 1)
 				)
@@ -4114,7 +4114,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "U401")
 					(unit 2)
 				)
@@ -4194,7 +4194,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "R414")
 					(unit 1)
 				)
@@ -4276,7 +4276,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "R408")
 					(unit 1)
 				)
@@ -4358,7 +4358,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "R411")
 					(unit 1)
 				)
@@ -4437,7 +4437,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "#PWR05")
 					(unit 1)
 				)
@@ -4521,7 +4521,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "D401")
 					(unit 1)
 				)
@@ -4600,7 +4600,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "#PWR024")
 					(unit 1)
 				)
@@ -4680,7 +4680,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "R401")
 					(unit 1)
 				)
@@ -4760,7 +4760,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "R419")
 					(unit 1)
 				)
@@ -4842,7 +4842,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "R407")
 					(unit 1)
 				)
@@ -4924,7 +4924,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "R405")
 					(unit 1)
 				)
@@ -5003,7 +5003,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "#PWR027")
 					(unit 1)
 				)
@@ -5081,7 +5081,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "#PWR025")
 					(unit 1)
 				)
@@ -5197,7 +5197,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "U401")
 					(unit 4)
 				)
@@ -5279,7 +5279,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "R409")
 					(unit 1)
 				)
@@ -5358,7 +5358,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "#PWR06")
 					(unit 1)
 				)
@@ -5436,7 +5436,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "#PWR019")
 					(unit 1)
 				)
@@ -5516,7 +5516,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "R402")
 					(unit 1)
 				)
@@ -5596,7 +5596,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "R415")
 					(unit 1)
 				)
@@ -5676,7 +5676,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "R418")
 					(unit 1)
 				)
@@ -5758,7 +5758,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "C401")
 					(unit 1)
 				)
@@ -5837,7 +5837,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "#PWR04")
 					(unit 1)
 				)
@@ -5916,7 +5916,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "#PWR015")
 					(unit 1)
 				)
@@ -5996,7 +5996,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "C402")
 					(unit 1)
 				)
@@ -6076,7 +6076,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "R417")
 					(unit 1)
 				)
@@ -6156,7 +6156,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "R403")
 					(unit 1)
 				)
@@ -6236,7 +6236,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "R416")
 					(unit 1)
 				)
@@ -6316,7 +6316,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "C404")
 					(unit 1)
 				)
@@ -6400,7 +6400,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "D404")
 					(unit 1)
 				)
@@ -6482,7 +6482,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "R412")
 					(unit 1)
 				)
@@ -6564,7 +6564,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "R406")
 					(unit 1)
 				)
@@ -6642,7 +6642,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "#PWR01")
 					(unit 1)
 				)
@@ -6721,7 +6721,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "#PWR03")
 					(unit 1)
 				)
@@ -6801,7 +6801,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "C403")
 					(unit 1)
 				)
@@ -6881,7 +6881,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "R413")
 					(unit 1)
 				)
@@ -6999,7 +6999,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "U401")
 					(unit 5)
 				)
@@ -7077,7 +7077,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "#PWR020")
 					(unit 1)
 				)
@@ -7157,7 +7157,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "R420")
 					(unit 1)
 				)
@@ -7236,7 +7236,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "#PWR017")
 					(unit 1)
 				)
@@ -7316,7 +7316,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "C405")
 					(unit 1)
 				)
@@ -7432,7 +7432,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "U401")
 					(unit 3)
 				)
@@ -7512,7 +7512,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "C407")
 					(unit 1)
 				)
@@ -7594,7 +7594,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "R410")
 					(unit 1)
 				)
@@ -7673,7 +7673,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "#PWR021")
 					(unit 1)
 				)
@@ -7752,7 +7752,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "#PWR016")
 					(unit 1)
 				)
@@ -7832,7 +7832,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "C406")
 					(unit 1)
 				)
@@ -7911,7 +7911,7 @@
 		)
 		(instances
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
 					(reference "#PWR023")
 					(unit 1)
 				)
@@ -7957,9 +7957,14 @@
 			)
 		)
 		(instances
+			(project ""
+				(path "/100a9d9c-fe9c-4eff-9197-8524700ce741"
+					(page "")
+				)
+			)
 			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/d85ebe2f-0413-41ce-a3d2-8988c513dbcd"
-					(page "5")
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3/100a9d9c-fe9c-4eff-9197-8524700ce741"
+					(page "6")
 				)
 			)
 		)
