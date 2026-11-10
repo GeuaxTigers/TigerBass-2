@@ -82,6 +82,30 @@
 			)
 		)
 	)
+	(global_label "VBat"
+		(shape input)
+		(at 63.5 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6702178d-a665-4dcb-aaaa-dc1a233046f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.2815 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "VBUS_TVS"
 		(shape bidirectional)
 		(at 124.46 106.68 0)
