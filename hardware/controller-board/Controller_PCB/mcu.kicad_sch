@@ -3530,6 +3530,78 @@
 		)
 		(uuid "fea0783d-e23a-4976-8cb5-58c201390fa7")
 	)
+	(global_label "D+"
+		(shape bidirectional)
+		(at 248.92 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "000c0712-df65-4bf7-bfd8-7e5c2d4a3143")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.8589 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VBUS_Sense"
+		(shape bidirectional)
+		(at 248.92 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4856b643-21e3-496a-997e-46c087669b2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 264.4465 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D-"
+		(shape bidirectional)
+		(at 248.92 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7da324a0-f78f-4855-8c81-e3fcf25c0faa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 255.8589 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(hierarchical_label "ADC_MOSI"
 		(shape output)
 		(at 264.16 137.16 0)
