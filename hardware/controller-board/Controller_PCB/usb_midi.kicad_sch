@@ -1279,7 +1279,7 @@
 			)
 		)
 	)
-	(global_label "TRS_RING"
+	(global_label "TRS_Ring"
 		(shape input)
 		(at 130.81 81.28 0)
 		(fields_autoplaced yes)
@@ -1327,7 +1327,7 @@
 			)
 		)
 	)
-	(global_label "TRS_TIP"
+	(global_label "TRS_Tip"
 		(shape input)
 		(at 130.81 87.63 0)
 		(fields_autoplaced yes)
