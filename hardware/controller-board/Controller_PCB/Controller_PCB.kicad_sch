@@ -11,6 +11,304 @@
 		(company "Joshua Wanga")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 320.04 132.08) (xy 320.04 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01446b8f-5fcb-4ed6-a5db-d4d0fa2b129d")
+	)
+	(wire
+		(pts
+			(xy 318.77 139.7) (xy 323.85 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0acc7040-6ffd-4cf6-bb03-75e462674393")
+	)
+	(wire
+		(pts
+			(xy 238.76 132.08) (xy 264.16 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19b752f2-eec5-4d11-b1e5-c8773926048d")
+	)
+	(wire
+		(pts
+			(xy 323.85 182.88) (xy 318.77 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28dc6f2d-643b-4350-833b-41c8baced78d")
+	)
+	(wire
+		(pts
+			(xy 238.76 137.16) (xy 264.16 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3025fbfc-a34d-4d0e-ae1a-d43653ffbc7a")
+	)
+	(wire
+		(pts
+			(xy 321.31 134.62) (xy 321.31 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "340da9b5-a143-4e24-a8a5-08929c7ec022")
+	)
+	(wire
+		(pts
+			(xy 318.77 134.62) (xy 321.31 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e0fb594-e64b-4832-ae03-946a4fa78e24")
+	)
+	(wire
+		(pts
+			(xy 322.58 137.16) (xy 322.58 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "522881a5-eea4-4a43-b13d-62ed2c6fd46d")
+	)
+	(wire
+		(pts
+			(xy 323.85 139.7) (xy 323.85 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73259dc5-6f1c-470a-8b26-86429503ff63")
+	)
+	(wire
+		(pts
+			(xy 238.76 134.62) (xy 264.16 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ef7381f-781f-489a-a26f-fed5f808336f")
+	)
+	(wire
+		(pts
+			(xy 322.58 180.34) (xy 318.77 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb534acb-659d-4af6-8a07-017f988d7b77")
+	)
+	(wire
+		(pts
+			(xy 318.77 137.16) (xy 322.58 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd4c347f-9cc0-4c4d-a1cf-7bbae1a796a4")
+	)
+	(wire
+		(pts
+			(xy 321.31 177.8) (xy 318.77 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da082450-9810-4df6-8453-bf8fb9999ed1")
+	)
+	(wire
+		(pts
+			(xy 238.76 139.7) (xy 264.16 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4cff754-c7b4-4011-97b4-3342eb275b17")
+	)
+	(wire
+		(pts
+			(xy 318.77 175.26) (xy 320.04 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb330b14-68e7-4caf-9faf-90269644ecb9")
+	)
+	(wire
+		(pts
+			(xy 318.77 132.08) (xy 320.04 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec88c5de-69d2-42c7-91de-2247a857bf20")
+	)
+	(sheet
+		(at 264.16 76.2)
+		(size 54.61 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "321870c8-1aa0-4f67-9abd-41b2984abc13")
+		(property "Sheetname" "String Drive"
+			(at 264.16 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "string_drive.kicad_sch"
+			(at 264.16 99.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Controller_PCB"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195.58 76.2)
+		(size 43.18 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7a994c01-b757-4cde-83a6-e6e347c20d5e")
+		(property "Sheetname" "Power"
+			(at 195.58 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 195.58 99.5646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Controller_PCB"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 195.58 172.72)
+		(size 43.18 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c9e47e2d-e7ef-4612-9323-71f169d68cb0")
+		(property "Sheetname" "USB and MIDI"
+			(at 195.58 172.0084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_midi.kicad_sch"
+			(at 195.58 196.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Controller_PCB"
+				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3"
+					(page "7")
+				)
+			)
+		)
+	)
 	(sheet
 		(at 195.58 124.46)
 		(size 43.18 22.86)
@@ -98,52 +396,6 @@
 		)
 	)
 	(sheet
-		(at 195.58 76.2)
-		(size 43.18 22.86)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "7a994c01-b757-4cde-83a6-e6e347c20d5e")
-		(property "Sheetname" "Power"
-			(at 195.58 75.4884 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "power.kicad_sch"
-			(at 195.58 99.5646 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 264.16 129.54)
 		(size 54.61 30.48)
 		(exclude_from_sim no)
@@ -221,102 +473,50 @@
 				(justify left)
 			)
 		)
-		(instances
-			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 264.16 76.2)
-		(size 54.61 22.86)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "321870c8-1aa0-4f67-9abd-41b2984abc13")
-		(property "Sheetname" "String Drive"
-			(at 264.16 75.4884 0)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "Pickup_1" output
+			(at 318.77 132.08 0)
+			(uuid "74383851-8cfd-47d6-a8b5-8b2de68b48a3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify right)
 			)
 		)
-		(property "Sheetfile" "string_drive.kicad_sch"
-			(at 264.16 99.5646 0)
-			(show_name no)
-			(do_not_autoplace no)
+		(pin "Pickup_2" output
+			(at 318.77 134.62 0)
+			(uuid "c8cdb51c-ebb9-4524-b268-f13e8b2451ee")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify right)
+			)
+		)
+		(pin "Pickup_3" output
+			(at 318.77 137.16 0)
+			(uuid "4ccb0380-64c3-4996-b266-a422dbcd8f41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Pickup_4" output
+			(at 318.77 139.7 0)
+			(uuid "f711c19f-4b94-46c9-88e9-522c157e2f59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 195.58 172.72)
-		(size 43.18 22.86)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "c9e47e2d-e7ef-4612-9323-71f169d68cb0")
-		(property "Sheetname" "USB and MIDI"
-			(at 195.58 172.0084 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "usb_midi.kicad_sch"
-			(at 195.58 196.0846 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Controller_PCB"
-				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3"
-					(page "7")
+					(page "4")
 				)
 			)
 		)
@@ -359,6 +559,46 @@
 				(justify left top)
 			)
 		)
+		(pin "Pickup_1" output
+			(at 318.77 175.26 0)
+			(uuid "68359b88-f19c-4450-ace5-c8e042e10402")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Pickup_2" output
+			(at 318.77 177.8 0)
+			(uuid "6366579c-4713-4111-813f-00a5fa366e7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Pickup_3" output
+			(at 318.77 180.34 0)
+			(uuid "d61a4524-c9ae-4f9a-9520-149358ca0e15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Pickup_4" output
+			(at 318.77 182.88 0)
+			(uuid "71147ff2-ae7e-406e-82cf-6f776723f830")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3"
@@ -366,46 +606,6 @@
 				)
 			)
 		)
-	)
-	(wire
-		(pts
-			(xy 238.76 132.08) (xy 264.16 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19b752f2-eec5-4d11-b1e5-c8773926048d")
-	)
-	(wire
-		(pts
-			(xy 238.76 134.62) (xy 264.16 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ef7381f-781f-489a-a26f-fed5f808336f")
-	)
-	(wire
-		(pts
-			(xy 238.76 137.16) (xy 264.16 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3025fbfc-a34d-4d0e-ae1a-d43653ffbc7a")
-	)
-	(wire
-		(pts
-			(xy 238.76 139.7) (xy 264.16 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4cff754-c7b4-4011-97b4-3342eb275b17")
 	)
 	(sheet_instances
 		(path "/"
