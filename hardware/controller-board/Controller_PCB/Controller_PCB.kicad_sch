@@ -599,6 +599,26 @@
 				(justify right)
 			)
 		)
+		(pin "Whammy_Sense" input
+			(at 264.16 175.26 180)
+			(uuid "774d243c-a3ea-4804-94e4-e3ec69695600")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Mod_Wheel_Sense" input
+			(at 264.16 177.8 180)
+			(uuid "42b2fbb2-7735-447c-8874-b0a7374cdcb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3"
