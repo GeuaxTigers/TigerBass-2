@@ -1865,7 +1865,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 127 83.058 90)
 			(hide yes)
 			(show_name no)
@@ -1947,7 +1947,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 100.0252 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -2264,7 +2264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 94.742 143.51 90)
 			(hide yes)
 			(show_name no)
@@ -2346,7 +2346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 94.742 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -2426,7 +2426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-5N"
+		(property "Footprint" "SamacSys_Parts:SOT95P280X145-5N"
 			(at 95.25 182.55 0)
 			(hide yes)
 			(show_name no)
@@ -2840,7 +2840,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 111.76 89.408 90)
 			(hide yes)
 			(show_name no)
