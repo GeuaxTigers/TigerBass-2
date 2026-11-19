@@ -3318,7 +3318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:SODFL1006X40N"
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
 			(at 135.89 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3756,7 +3756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-16N"
 			(at 215.9 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -4037,7 +4037,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:SODFL1006X40N"
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
 			(at 135.89 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -5120,7 +5120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:SODFL1006X40N"
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
 			(at 135.89 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -6922,7 +6922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:SODFL1006X40N"
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
 			(at 62.23 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -7355,7 +7355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:SODFL1006X40N"
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-14N"
 			(at 135.89 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7959,7 +7959,7 @@
 		(instances
 			(project ""
 				(path "/100a9d9c-fe9c-4eff-9197-8524700ce741"
-					(page "")
+					(page "#")
 				)
 			)
 			(project "Controller_PCB"
