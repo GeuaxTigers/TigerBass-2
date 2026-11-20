@@ -23,16 +23,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 168.91) (xy 241.3 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20bbad67-7d0d-4c2b-8da8-df25c4beff02")
-	)
-	(wire
-		(pts
 			(xy 287.02 147.32) (xy 287.02 172.72)
 		)
 		(stroke
@@ -73,16 +63,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 168.91) (xy 241.3 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "355d114c-efaf-4e40-a512-7da8292617a5")
-	)
-	(wire
-		(pts
 			(xy 276.86 147.32) (xy 276.86 172.72)
 		)
 		(stroke
@@ -103,33 +83,13 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 142.24) (xy 238.76 142.24)
+			(xy 199.39 147.32) (xy 199.39 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ee1447f-600a-4f92-9faf-31b98dc1aa8b")
-	)
-	(wire
-		(pts
-			(xy 195.58 175.26) (xy 193.04 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7af27b2f-cf65-4ba2-90df-958fe8b40fb2")
-	)
-	(wire
-		(pts
-			(xy 193.04 175.26) (xy 193.04 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b0dbf61-b45f-41e4-9548-35902f18ad39")
+		(uuid "62336a99-257a-475e-a944-d58fd0b76278")
 	)
 	(wire
 		(pts
@@ -478,13 +438,13 @@
 			)
 		)
 		(pin "UART_TX_MIDI" input
-			(at 195.58 175.26 180)
+			(at 199.39 172.72 90)
 			(uuid "e894044d-89f1-4659-ad6e-be216a177a3b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances
@@ -574,13 +534,13 @@
 			)
 		)
 		(pin "UART_TX_MIDI" output
-			(at 238.76 142.24 0)
+			(at 199.39 147.32 270)
 			(uuid "748cbf39-a51c-46aa-aa71-93214423876e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
