@@ -2703,7 +2703,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 60.96 85.598 90)
 			(hide yes)
 			(show_name no)
@@ -3263,7 +3263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 107.6452 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3343,7 +3343,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 71.12 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -3425,7 +3425,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 154.6352 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3664,7 +3664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 131.7752 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3835,7 +3835,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 155.9052 91.44 0)
 			(hide yes)
 			(show_name no)
