@@ -669,6 +669,26 @@
 				(justify right)
 			)
 		)
+		(pin "Mod Wheel Pickup" input
+			(at 264.16 186.69 180)
+			(uuid "3b057d19-5594-48f5-8fff-076ae0d38a52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Whammy Bar Pickup" input
+			(at 264.16 184.15 180)
+			(uuid "e034e5e2-31b7-4144-9491-460d78bbef44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3"
