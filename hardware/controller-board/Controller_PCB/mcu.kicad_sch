@@ -3578,6 +3578,30 @@
 			)
 		)
 	)
+	(global_label "D- USB B"
+		(shape bidirectional)
+		(at 248.92 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "795373b6-e135-4114-a091-3b6aebddd62b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.8741 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "D-"
 		(shape bidirectional)
 		(at 248.92 86.36 0)
@@ -3591,6 +3615,30 @@
 		(uuid "7da324a0-f78f-4855-8c81-e3fcf25c0faa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 255.8589 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "D+ USB B"
+		(shape bidirectional)
+		(at 248.92 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8da61357-649b-4a64-a356-9d0ddee7251d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.8741 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
