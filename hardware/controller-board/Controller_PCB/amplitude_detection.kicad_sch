@@ -3070,6 +3070,17 @@
 			)
 		)
 	)
+	(hierarchical_label "Whammy Bar Pickup"
+		(shape input)
+		(at 205.74 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05f3aea9-79c9-49ff-a1ba-03fcd8b58802")
+	)
 	(hierarchical_label "Piezo_A+"
 		(shape input)
 		(at 88.9 97.79 180)
@@ -3080,6 +3091,17 @@
 			(justify right)
 		)
 		(uuid "2dd1d1fd-802e-443c-898d-f33bcb53e3a7")
+	)
+	(hierarchical_label "Mod Wheel Pickup"
+		(shape input)
+		(at 208.28 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3b088bce-e810-4be2-a8ea-366901da6d62")
 	)
 	(hierarchical_label "Piezo_D+"
 		(shape input)
@@ -3157,6 +3179,28 @@
 			(justify right)
 		)
 		(uuid "77651248-7027-477a-ba14-eee314511e56")
+	)
+	(hierarchical_label "MIDI_CH"
+		(shape input)
+		(at 207.01 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f68f713-e0d8-4edf-9459-be916b6e6b9c")
+	)
+	(hierarchical_label "MIDI_Mode"
+		(shape input)
+		(at 208.28 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "958a71ce-6de7-4d25-9432-f3a7945bad82")
 	)
 	(hierarchical_label "Piezo_D-"
 		(shape input)

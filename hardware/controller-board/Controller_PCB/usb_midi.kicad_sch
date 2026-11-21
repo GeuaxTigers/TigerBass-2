@@ -1255,173 +1255,60 @@
 		)
 		(uuid "f274e5cc-006f-4b73-a75a-ec6449fa3942")
 	)
-	(global_label "D-"
-		(shape bidirectional)
-		(at 77.47 123.19 180)
-		(fields_autoplaced yes)
+	(hierarchical_label "USB_B_D+"
+		(shape input)
+		(at 77.47 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "31d5cf8f-ac2f-42e9-bc2e-ccc9d6fb2b59")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.5311 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "33a7f88d-af46-44bb-94bb-748c57a338b3")
 	)
-	(global_label "TRS_RING"
+	(hierarchical_label "USB_B_D-"
 		(shape input)
-		(at 130.81 81.28 0)
-		(fields_autoplaced yes)
+		(at 77.47 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "404ae102-a76d-415b-a99e-19fa1e2dda11")
+	)
+	(hierarchical_label "USB_B VBUS"
+		(shape input)
+		(at 105.41 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "4ac32604-5172-4643-a381-ccaf26a684be")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.6852 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "45650eb6-61c3-431e-a74f-f3cac3b4121d")
 	)
-	(global_label "D+"
-		(shape bidirectional)
-		(at 77.47 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "846b58e6-b7e4-4759-964c-8f39825bf698")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.5311 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "TRS_TIP"
+	(hierarchical_label "TRS_Tip"
 		(shape input)
 		(at 130.81 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "9c5bde11-009d-4f1a-b7ce-e955696af477")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.0523 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "ad3674a5-3d65-416e-9be7-c20e809b5860")
 	)
-	(global_label "TRS_Sleeve"
-		(shape output)
+	(hierarchical_label "TRS_Sleeve"
+		(shape input)
 		(at 130.81 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "b6ece21a-e350-4f0c-8e67-d7ccc538c396")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.318 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "VBUS_Sense"
-		(shape bidirectional)
-		(at 85.09 147.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f1d3317c-03d4-4378-a089-4a85d495e2f2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.5635 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "VBUS_TVS"
-		(shape bidirectional)
-		(at 105.41 138.43 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fee8283f-98db-44a6-a0c2-c60c20ad8f6d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.6384 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
+		(uuid "c0ada2cc-57b1-4556-814a-3a9da3475108")
 	)
 	(hierarchical_label "UART_TX_MIDI"
 		(shape input)
@@ -1433,6 +1320,28 @@
 			(justify right)
 		)
 		(uuid "d1c5b0ad-12c3-4333-8975-4f8653299350")
+	)
+	(hierarchical_label "TRS_Ring"
+		(shape input)
+		(at 130.81 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d46cef03-47bb-40d7-aec5-df22183c8110")
+	)
+	(hierarchical_label "VBUS_Sense"
+		(shape input)
+		(at 85.09 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f98b18ab-d3af-40a7-a024-92d361584639")
 	)
 	(symbol
 		(lib_id "Diode:PESD3V3U1UL")
