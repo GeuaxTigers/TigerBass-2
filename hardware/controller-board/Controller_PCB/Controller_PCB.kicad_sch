@@ -11,6 +11,78 @@
 		(company "Joshua Wanga")
 	)
 	(lib_symbols)
+	(junction
+		(at 248.92 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14750540-b511-4769-ba44-7a6a39f6e096")
+	)
+	(junction
+		(at 245.11 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bc920333-d6b4-430e-988b-e5e2853ede8d")
+	)
+	(wire
+		(pts
+			(xy 219.71 203.2) (xy 287.02 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02a04cac-e649-4e4e-ada8-4266b9baedfa")
+	)
+	(wire
+		(pts
+			(xy 229.87 147.32) (xy 229.87 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0588f5d5-5f24-478d-83bd-988775c624a2")
+	)
+	(wire
+		(pts
+			(xy 224.79 198.12) (xy 224.79 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08bd0ae5-afa7-4432-aebf-652fc56a5e43")
+	)
+	(wire
+		(pts
+			(xy 242.57 186.69) (xy 238.76 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e22fdab-68d8-4efa-b2c2-670466fe9eea")
+	)
+	(wire
+		(pts
+			(xy 238.76 144.78) (xy 248.92 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "125c226b-522e-4194-ad16-be14e0771702")
+	)
+	(wire
+		(pts
+			(xy 222.25 147.32) (xy 222.25 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "154332c6-a80a-41b3-8535-ebec9a6b3ba4")
+	)
 	(wire
 		(pts
 			(xy 238.76 132.08) (xy 264.16 132.08)
@@ -23,6 +95,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 175.26) (xy 264.16 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bc3cf39-67e1-472b-a578-bd1484e56f94")
+	)
+	(wire
+		(pts
 			(xy 287.02 147.32) (xy 287.02 172.72)
 		)
 		(stroke
@@ -30,6 +112,16 @@
 			(type default)
 		)
 		(uuid "2cc95104-4494-4268-a2b7-b558011833f6")
+	)
+	(wire
+		(pts
+			(xy 238.76 189.23) (xy 248.92 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d7aaa91-0b70-4d5f-b0bf-5b0cc1b422a8")
 	)
 	(wire
 		(pts
@@ -83,6 +175,56 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 148.59) (xy 229.87 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57db6a97-f144-4b5b-95f7-7e6f9b3aac78")
+	)
+	(wire
+		(pts
+			(xy 257.81 151.13) (xy 224.79 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5938cba8-54d9-480f-9201-a765120a5095")
+	)
+	(wire
+		(pts
+			(xy 227.33 147.32) (xy 227.33 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c87aa49-d73d-4ee3-a173-59934483bd18")
+	)
+	(wire
+		(pts
+			(xy 257.81 177.8) (xy 257.81 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cfc754c-bd5a-40a6-8baf-5f8a9810fdaa")
+	)
+	(wire
+		(pts
+			(xy 224.79 151.13) (xy 224.79 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d92fc8b-a8ab-46f3-bc81-44365bd7e208")
+	)
+	(wire
+		(pts
 			(xy 199.39 147.32) (xy 199.39 172.72)
 		)
 		(stroke
@@ -90,6 +232,106 @@
 			(type default)
 		)
 		(uuid "62336a99-257a-475e-a944-d58fd0b76278")
+	)
+	(wire
+		(pts
+			(xy 261.62 152.4) (xy 261.62 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67151bfa-b38e-4844-a636-8ab578a0c184")
+	)
+	(wire
+		(pts
+			(xy 284.48 195.58) (xy 284.48 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aa3b6c7-8547-4c70-97e2-6f1ed63a57b9")
+	)
+	(wire
+		(pts
+			(xy 264.16 177.8) (xy 257.81 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f1fcb5c-6427-444b-9207-727f86cddc34")
+	)
+	(wire
+		(pts
+			(xy 245.11 146.05) (xy 245.11 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86dda948-6fdc-409d-afeb-f4795b0ed452")
+	)
+	(wire
+		(pts
+			(xy 255.27 182.88) (xy 264.16 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88a59a1d-d4ca-4110-bceb-bd27e17a5f31")
+	)
+	(wire
+		(pts
+			(xy 219.71 195.58) (xy 219.71 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e7e270c-5d26-43ef-b7c3-e10344924697")
+	)
+	(wire
+		(pts
+			(xy 227.33 149.86) (xy 255.27 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fcbf321-3480-4ca0-a19f-2dd341aff52e")
+	)
+	(wire
+		(pts
+			(xy 222.25 195.58) (xy 222.25 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94fcf7bd-c0c3-4c79-87e1-15177f3d31dc")
+	)
+	(wire
+		(pts
+			(xy 238.76 191.77) (xy 245.11 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "962f630e-fbf8-4745-9821-fd2af76d58b2")
+	)
+	(wire
+		(pts
+			(xy 281.94 200.66) (xy 281.94 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a8a7f08-e6e3-4834-8f52-dc0ca0a40166")
 	)
 	(wire
 		(pts
@@ -113,6 +355,116 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 200.66) (xy 281.94 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7d264d7-04b5-4dba-835b-63e6bb36454e")
+	)
+	(wire
+		(pts
+			(xy 264.16 180.34) (xy 252.73 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b65363aa-660c-4c26-9c13-1b48afcc1e4e")
+	)
+	(wire
+		(pts
+			(xy 248.92 189.23) (xy 264.16 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b74f22b6-b535-4d75-8b77-fddcf95312c0")
+	)
+	(wire
+		(pts
+			(xy 284.48 198.12) (xy 224.79 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c62ee116-6c02-41d8-ab85-416d15830311")
+	)
+	(wire
+		(pts
+			(xy 238.76 194.31) (xy 264.16 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c99ed030-86fb-49cc-a561-8217d0d8bbc8")
+	)
+	(wire
+		(pts
+			(xy 252.73 180.34) (xy 252.73 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cff280c2-97bc-4c4c-b3a8-9114423dd43c")
+	)
+	(wire
+		(pts
+			(xy 248.92 144.78) (xy 248.92 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3082bd6-158c-449c-bb6c-a4ddbd2a2f6d")
+	)
+	(wire
+		(pts
+			(xy 287.02 203.2) (xy 287.02 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d90e08f7-b7bf-44f3-a604-4caf23c09847")
+	)
+	(wire
+		(pts
+			(xy 222.25 152.4) (xy 261.62 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da59fe88-ed86-49c6-8c69-69febe849ed6")
+	)
+	(wire
+		(pts
+			(xy 238.76 146.05) (xy 245.11 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0f44c54-0116-4dac-9487-be0ab0fdd939")
+	)
+	(wire
+		(pts
+			(xy 255.27 149.86) (xy 255.27 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3bf5d7e-89cf-4e60-8b32-b8db5edaa90c")
+	)
+	(wire
+		(pts
 			(xy 238.76 139.7) (xy 264.16 139.7)
 		)
 		(stroke
@@ -120,6 +472,16 @@
 			(type default)
 		)
 		(uuid "e4cff754-c7b4-4011-97b4-3342eb275b17")
+	)
+	(wire
+		(pts
+			(xy 238.76 142.24) (xy 242.57 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7c39702-1c02-49b7-ba5c-41892102d6f6")
 	)
 	(wire
 		(pts
@@ -140,6 +502,26 @@
 			(type default)
 		)
 		(uuid "ed8ecf51-586c-4b4f-86b9-00d8883d419f")
+	)
+	(wire
+		(pts
+			(xy 245.11 191.77) (xy 264.16 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee83f9b6-22e1-446e-8e49-b688572f8661")
+	)
+	(wire
+		(pts
+			(xy 242.57 142.24) (xy 242.57 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efce56e7-43ee-4a07-b55d-88b5b74d6218")
 	)
 	(sheet
 		(at 264.16 124.46)
@@ -447,6 +829,76 @@
 				(justify right)
 			)
 		)
+		(pin "USB_B VBUS" input
+			(at 238.76 194.31 0)
+			(uuid "3e251bbf-67b2-467d-be17-08242fcf80d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_B_D+" input
+			(at 238.76 191.77 0)
+			(uuid "d953d099-d03f-473d-8e72-315107d6e80e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_B_D-" input
+			(at 238.76 189.23 0)
+			(uuid "199ff31c-a092-4189-b29d-241aeb4fda67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TRS_Ring" input
+			(at 222.25 195.58 270)
+			(uuid "4aaeb07d-7a9e-4e66-9583-069e988e6c72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TRS_Sleeve" input
+			(at 224.79 195.58 270)
+			(uuid "c280217d-cb0c-42a7-8f28-0e99062d9b85")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TRS_Tip" input
+			(at 219.71 195.58 270)
+			(uuid "1ecd5c13-b46d-420c-8877-f1997d08ba34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS_Sense" input
+			(at 238.76 186.69 0)
+			(uuid "06c0c597-2e88-4096-9f79-8a862deff002")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Controller_PCB"
 				(path "/a062022b-d2b8-4d47-b17a-90e5c86275a3"
@@ -541,6 +993,76 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "NRST" input
+			(at 222.25 147.32 270)
+			(uuid "a42d2dc3-a639-48c7-8f25-2a0772a48ffb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWCLK" input
+			(at 224.79 147.32 270)
+			(uuid "72d6ae5a-1d82-446a-8fff-755b302abb44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWDIO" input
+			(at 227.33 147.32 270)
+			(uuid "1a7554b5-3b48-46da-a397-958b716aedac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWO" input
+			(at 229.87 147.32 270)
+			(uuid "c9eeed1c-a328-4d5c-8cf7-a30eebf788ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_B_D+" input
+			(at 238.76 146.05 0)
+			(uuid "e1b1d113-2e40-4b2d-a0ee-4930f6b94a3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_B_D-" input
+			(at 238.76 144.78 0)
+			(uuid "61f8be80-458d-471c-a3a9-36aa6fd2ab33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS_Sense" input
+			(at 238.76 142.24 0)
+			(uuid "77acc245-a0f9-45a8-9e23-1f23afe2b10b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -670,7 +1192,7 @@
 			)
 		)
 		(pin "Mod Wheel Pickup" input
-			(at 264.16 186.69 180)
+			(at 306.07 195.58 270)
 			(uuid "3b057d19-5594-48f5-8fff-076ae0d38a52")
 			(effects
 				(font
@@ -680,8 +1202,118 @@
 			)
 		)
 		(pin "Whammy Bar Pickup" input
-			(at 264.16 184.15 180)
+			(at 300.99 195.58 270)
 			(uuid "e034e5e2-31b7-4144-9491-460d78bbef44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MIDI_CH" input
+			(at 309.88 195.58 270)
+			(uuid "bccf5def-0c00-4178-8946-e83afda579fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NRST" input
+			(at 264.16 175.26 180)
+			(uuid "f365958d-bdde-4ef0-9309-fd508a2e7e5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWCLK" input
+			(at 264.16 177.8 180)
+			(uuid "179450f9-6280-4a6f-823c-efe038de1d4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWDIO" input
+			(at 264.16 182.88 180)
+			(uuid "b4824b55-f126-4030-9d82-a729537c8ccd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWO" input
+			(at 264.16 180.34 180)
+			(uuid "6888d808-4425-43b8-bd58-6aae751a6fec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_B VBUS" input
+			(at 264.16 194.31 180)
+			(uuid "7d680f7c-2300-4d44-8481-448bfb144494")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_B_D+" input
+			(at 264.16 191.77 180)
+			(uuid "86970b5c-094f-4b7a-b7d2-0ef058737e70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_B_D-" input
+			(at 264.16 189.23 180)
+			(uuid "fab51346-60da-411b-8a45-79455047e7b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TRS_Ring" input
+			(at 281.94 195.58 270)
+			(uuid "bbe56f8c-8b1e-47c6-aeb1-e66059c6c6a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TRS_Sleeve" input
+			(at 284.48 195.58 270)
+			(uuid "38eeefd5-0c73-4929-a65e-0fa84a3ee58c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TRS_Tip" input
+			(at 287.02 195.58 270)
+			(uuid "19ea58b6-0e55-4275-806d-b522ab61469c")
 			(effects
 				(font
 					(size 1.27 1.27)
